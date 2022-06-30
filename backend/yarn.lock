@@ -3670,7 +3670,7 @@ __metadata:
     "@strapi/plugin-users-permissions": 4.2.2
     "@strapi/strapi": 4.2.2
     better-sqlite3: 7.4.6
-    strapi-google-auth: ^0.1.2
+    strapi-google-auth: 0.1.2
   languageName: unknown
   linkType: soft
 
@@ -13095,7 +13095,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-google-auth@npm:^0.1.2":
+"strapi-google-auth@npm:0.1.2":
   version: 0.1.2
   resolution: "strapi-google-auth@npm:0.1.2"
   dependencies:
