@@ -38,9 +38,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@faker-js/faker": "^7.3.0",
 		"@fontsource/fira-mono": "4.5.8",
-		"cookie": "0.5.0",
-		"faker": "6.6.6"
+		"cookie": "0.5.0"
 	},
 	"packageManager": "yarn@3.2.1"
 }

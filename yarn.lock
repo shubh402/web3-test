@@ -315,6 +315,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@faker-js/faker@npm:^7.3.0":
+  version: 7.3.0
+  resolution: "@faker-js/faker@npm:7.3.0"
+  checksum: ef5b64af30ce0ec76cb22798fbbe50184946fac389b4d81235f9d8d9eaaa77d67a80f46954fa993996b7c774bae23314529a95a42a6b68794f0795976c9be82b
+  languageName: node
+  linkType: hard
+
 "@fontsource/fira-mono@npm:4.5.8":
   version: 4.5.8
   resolution: "@fontsource/fira-mono@npm:4.5.8"
@@ -2415,13 +2422,6 @@ __metadata:
     node-gyp: latest
     safe-buffer: ^5.1.1
   checksum: ad4e1577f1a6b721c7800dcc7c733fe01f6c310732bb5bf2240245c2a5b45a38518b91d8be2c610611623160b9d1c0e91f1ce96d639f8b53e8894625cf20fa45
-  languageName: node
-  linkType: hard
-
-"faker@npm:6.6.6":
-  version: 6.6.6
-  resolution: "faker@npm:6.6.6"
-  checksum: bfb0d581ab4d76095f2c6bff213fe1735ce077f0f8df849c144ad26035e105bce1b7a704cc030366338c52e25b636ac097a712426a78c9b8804af78f6f2bffe7
   languageName: node
   linkType: hard
 
@@ -5368,6 +5368,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web3-test@workspace:."
   dependencies:
+    "@faker-js/faker": ^7.3.0
     "@fontsource/fira-mono": 4.5.8
     "@playwright/test": 1.23.0
     "@sveltejs/adapter-auto": next
@@ -5380,10 +5381,9 @@ __metadata:
     eslint: 8.18.0
     eslint-config-prettier: 8.5.0
     eslint-plugin-svelte3: 4.0.0
-    faker: 6.6.6
-    hardhat: 2.9.9
-    postcss: 8.4.14
-    postcss-load-config: 4.0.1
+    hardhat: ^2.9.9
+    postcss: ^8.4.14
+    postcss-load-config: ^4.0.1
     prettier: 2.7.1
     prettier-plugin-svelte: 2.7.0
     svelte: 3.48.0
