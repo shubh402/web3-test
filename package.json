@@ -24,6 +24,7 @@
 		"eslint": "8.18.0",
 		"eslint-config-prettier": "8.5.0",
 		"eslint-plugin-svelte3": "4.0.0",
+		"hardhat": "^2.9.9",
 		"postcss": "^8.4.14",
 		"postcss-load-config": "^4.0.1",
 		"prettier": "2.7.1",
@@ -38,7 +39,8 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/fira-mono": "4.5.8",
-		"cookie": "0.5.0"
+		"cookie": "0.5.0",
+		"faker": "^6.6.6"
 	},
 	"packageManager": "yarn@3.2.1"
 }
