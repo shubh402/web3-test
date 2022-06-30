@@ -315,7 +315,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@faker-js/faker@npm:^7.3.0":
+"@faker-js/faker@npm:7.3.0":
   version: 7.3.0
   resolution: "@faker-js/faker@npm:7.3.0"
   checksum: ef5b64af30ce0ec76cb22798fbbe50184946fac389b4d81235f9d8d9eaaa77d67a80f46954fa993996b7c774bae23314529a95a42a6b68794f0795976c9be82b
@@ -5368,7 +5368,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web3-test@workspace:."
   dependencies:
-    "@faker-js/faker": ^7.3.0
+    "@faker-js/faker": 7.3.0
     "@fontsource/fira-mono": 4.5.8
     "@playwright/test": 1.23.0
     "@sveltejs/adapter-auto": next
@@ -5381,9 +5381,9 @@ __metadata:
     eslint: 8.18.0
     eslint-config-prettier: 8.5.0
     eslint-plugin-svelte3: 4.0.0
-    hardhat: ^2.9.9
-    postcss: ^8.4.14
-    postcss-load-config: ^4.0.1
+    hardhat: 2.9.9
+    postcss: 8.4.14
+    postcss-load-config: 4.0.1
     prettier: 2.7.1
     prettier-plugin-svelte: 2.7.0
     svelte: 3.48.0
