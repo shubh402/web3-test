@@ -3,7 +3,7 @@
 	import '../app.css';
 </script>
 
-<Header />
+<header />
 
 <main>
 	<slot />
