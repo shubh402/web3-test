@@ -1543,7 +1543,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"code-oss-dev@npm:^0.0.1-security":
+"code-oss-dev@npm:0.0.1-security":
   version: 0.0.1-security
   resolution: "code-oss-dev@npm:0.0.1-security"
   checksum: 7f5708169b09bcfef5c8d9349c133120771efdd17cc482aee31a74a3b9677702c8ec00280b5d300ddeff7bc282a6d7720adbccf2a3a53744085e9f076b15171d
@@ -5341,7 +5341,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 5.30.5
     "@typescript-eslint/parser": 5.30.5
     autoprefixer: 10.4.7
-    code-oss-dev: ^0.0.1-security
+    code-oss-dev: 0.0.1-security
     cookie: 0.5.0
     eslint: 8.19.0
     eslint-config-prettier: 8.5.0

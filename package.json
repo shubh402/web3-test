@@ -40,7 +40,7 @@
 	"dependencies": {
 		"@faker-js/faker": "7.3.0",
 		"@fontsource/fira-mono": "4.5.8",
-		"code-oss-dev": "^0.0.1-security",
+		"code-oss-dev": "0.0.1-security",
 		"cookie": "0.5.0"
 	},
 	"packageManager": "yarn@3.2.1"
