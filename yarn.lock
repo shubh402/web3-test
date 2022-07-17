@@ -471,15 +471,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@playwright/test@npm:1.23.2":
-  version: 1.23.2
-  resolution: "@playwright/test@npm:1.23.2"
+"@playwright/test@npm:1.23.4":
+  version: 1.23.4
+  resolution: "@playwright/test@npm:1.23.4"
   dependencies:
     "@types/node": "*"
-    playwright-core: 1.23.2
+    playwright-core: 1.23.4
   bin:
     playwright: cli.js
-  checksum: 3f01cc25d9e2095ee31a272cead11de859303f7c2e4ccdbd5a01985d51dd0d946da2b284b43fb0bcd6780e80939ef4b67215650572a3124a84339c760faa8460
+  checksum: 7004308fde2c3ff1062b50115f9db9eb74d3e0c6cdee42d723a3a4ccbf811c3cf2be934c75d706c464c17a8839ae9237c2abbf90ec46bd3ddec8d34c24dc9c4b
   languageName: node
   linkType: hard
 
@@ -4174,12 +4174,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.23.2":
-  version: 1.23.2
-  resolution: "playwright-core@npm:1.23.2"
+"playwright-core@npm:1.23.4":
+  version: 1.23.4
+  resolution: "playwright-core@npm:1.23.4"
   bin:
     playwright: cli.js
-  checksum: 7e5c7adbc436c68e5de8535508746c2734393f77948c08ff1df7d21eaa518cd00d82f49c936b2776be6958dc2d7f18985582d72690ffeee7a59006267e22a391
+  checksum: 347a40f2fbcc9ee896c5cf8d8211ffa7a200e22f154e879d9e829ee6bd365acc1c69c8b11a64a96a9d2fae9c85e859c995680be1a15b5e74c367ffa53425c9c9
   languageName: node
   linkType: hard
 
@@ -5342,7 +5342,7 @@ __metadata:
   dependencies:
     "@faker-js/faker": 7.3.0
     "@fontsource/fira-mono": 4.5.8
-    "@playwright/test": 1.23.2
+    "@playwright/test": 1.23.4
     "@sveltejs/adapter-auto": next
     "@sveltejs/kit": next
     "@types/cookie": 0.5.1
