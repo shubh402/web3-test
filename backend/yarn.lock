@@ -3660,7 +3660,7 @@ __metadata:
     "@strapi/plugin-i18n": 4.2.3
     "@strapi/plugin-users-permissions": 4.2.3
     "@strapi/strapi": 4.2.3
-    better-sqlite3: 7.5.3
+    better-sqlite3: 7.6.2
     strapi-google-auth: 0.1.2
   languageName: unknown
   linkType: soft
@@ -3717,14 +3717,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:7.5.3":
-  version: 7.5.3
-  resolution: "better-sqlite3@npm:7.5.3"
+"better-sqlite3@npm:7.6.2":
+  version: 7.6.2
+  resolution: "better-sqlite3@npm:7.6.2"
   dependencies:
     bindings: ^1.5.0
     node-gyp: latest
     prebuild-install: ^7.1.0
-  checksum: 41ad8ea0698c627ff7391e8b9cfe0f684d214a80ec4557775f04b795a8bf92f5b0e6d668d46f6cddfacfaf274793a6ded28f03e505e7fc2d6554cc1170e24ce4
+  checksum: 45159e535d2c4f81456f85adcfef82e8a49025ca3e70a79bb8c0a47c13e4d822633a51b457cc37b986c42f8912344152091c91cab485048a187900aab7e7d619
   languageName: node
   linkType: hard
 
