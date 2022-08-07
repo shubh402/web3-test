@@ -4032,13 +4032,13 @@ __metadata:
   linkType: hard
 
 "@types/react@npm:*, @types/react@npm:16 || 17 || 18":
-  version: 18.0.15
-  resolution: "@types/react@npm:18.0.15"
+  version: 18.0.16
+  resolution: "@types/react@npm:18.0.16"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: e22cc388d1c145aa184787e44dc28db4789976c704cd5db475c170bb76a560eb81def5f346cfe750949bb3d43ad88822b8cbb9f19b1286e3795892a8263e7715
+  checksum: 47853419adbf7f35f302cd4ef804c5a50498a0917a34e696caa693fc60b9c52c644ca2ecf64cbba4a5efd963771167d241906f117d16d59e20e84b882215b6bd
   languageName: node
   linkType: hard
 
@@ -9054,9 +9054,9 @@ __metadata:
   linkType: hard
 
 "github-buttons@npm:^2.21.1":
-  version: 2.21.1
-  resolution: "github-buttons@npm:2.21.1"
-  checksum: 5c90dc19a9301cfd5cedbb6adcd62725a7a013d5a564d15383c8cd92090beb3a5290fbdf0dd370b94e4a81e61a417b68f7b5df98da411b7df7453c2012d9a37a
+  version: 2.22.0
+  resolution: "github-buttons@npm:2.22.0"
+  checksum: e07b327c20a37696cbd289355e36b74f7c485b8886f865bbe5877f8435add622c76071200721e8c0255d0d3dbc317f0cdd34ac29e3c0d39722ed7894be753bac
   languageName: node
   linkType: hard
 
@@ -13875,13 +13875,13 @@ __metadata:
   linkType: hard
 
 "postcss@npm:^8.3.11, postcss@npm:^8.4.7":
-  version: 8.4.14
-  resolution: "postcss@npm:8.4.14"
+  version: 8.4.16
+  resolution: "postcss@npm:8.4.16"
   dependencies:
     nanoid: ^3.3.4
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: fe58766ff32e4becf65a7d57678995cfd239df6deed2fe0557f038b47c94e4132e7e5f68b5aa820c13adfec32e523b693efaeb65798efb995ce49ccd83953816
+  checksum: 10eee25efd77868036403858577da0cefaf2e0905feeaba5770d5438ccdddba3d01cba8063e96b8aac4c6daa0ed413dd5ae0554a433a3c4db38df1d134cffc1f
   languageName: node
   linkType: hard
 
