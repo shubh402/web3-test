@@ -5,7 +5,7 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@_sh/strapi-plugin-ckeditor@npm:^1.1.1":
+"@_sh/strapi-plugin-ckeditor@npm:1.1.1":
   version: 1.1.1
   resolution: "@_sh/strapi-plugin-ckeditor@npm:1.1.1"
   dependencies:
@@ -1906,7 +1906,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@exfabrica/strapi-plugin-awesome-seo@npm:^1.0.0-beta.1.1":
+"@exfabrica/strapi-plugin-awesome-seo@npm:1.0.0-beta.1.1":
   version: 1.0.0-beta.1.1
   resolution: "@exfabrica/strapi-plugin-awesome-seo@npm:1.0.0-beta.1.1"
   dependencies:
@@ -2335,7 +2335,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@localazy/strapi-plugin@npm:^0.1.9":
+"@localazy/strapi-plugin@npm:0.1.9":
   version: 0.1.9
   resolution: "@localazy/strapi-plugin@npm:0.1.9"
   dependencies:
@@ -2690,7 +2690,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@notum-cz/strapi-plugin-content-versioning@npm:^0.4.3":
+"@notum-cz/strapi-plugin-content-versioning@npm:0.4.3":
   version: 0.4.3
   resolution: "@notum-cz/strapi-plugin-content-versioning@npm:0.4.3"
   dependencies:
@@ -2723,7 +2723,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@offset-dev/strapi-calendar@npm:^0.0.7":
+"@offset-dev/strapi-calendar@npm:0.0.7":
   version: 0.0.7
   resolution: "@offset-dev/strapi-calendar@npm:0.0.7"
   dependencies:
@@ -3008,7 +3008,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi-newsletter/strapi@npm:^0.1.2":
+"@strapi-newsletter/strapi@npm:0.1.2":
   version: 0.1.2
   resolution: "@strapi-newsletter/strapi@npm:0.1.2"
   dependencies:
@@ -3288,7 +3288,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/plugin-documentation@npm:^4.3.2":
+"@strapi/plugin-documentation@npm:4.3.2":
   version: 4.3.2
   resolution: "@strapi/plugin-documentation@npm:4.3.2"
   dependencies:
@@ -3368,7 +3368,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/plugin-seo@npm:^1.7.4":
+"@strapi/plugin-seo@npm:1.7.4":
   version: 1.7.4
   resolution: "@strapi/plugin-seo@npm:1.7.4"
   dependencies:
@@ -5201,28 +5201,28 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "backend@workspace:."
   dependencies:
-    "@_sh/strapi-plugin-ckeditor": ^1.1.1
-    "@exfabrica/strapi-plugin-awesome-seo": ^1.0.0-beta.1.1
-    "@localazy/strapi-plugin": ^0.1.9
-    "@notum-cz/strapi-plugin-content-versioning": ^0.4.3
-    "@offset-dev/strapi-calendar": ^0.0.7
-    "@strapi-newsletter/strapi": ^0.1.2
-    "@strapi/plugin-documentation": ^4.3.2
+    "@_sh/strapi-plugin-ckeditor": 1.1.1
+    "@exfabrica/strapi-plugin-awesome-seo": 1.0.0-beta.1.1
+    "@localazy/strapi-plugin": 0.1.9
+    "@notum-cz/strapi-plugin-content-versioning": 0.4.3
+    "@offset-dev/strapi-calendar": 0.0.7
+    "@strapi-newsletter/strapi": 0.1.2
+    "@strapi/plugin-documentation": 4.3.2
     "@strapi/plugin-i18n": 4.3.2
-    "@strapi/plugin-seo": ^1.7.4
+    "@strapi/plugin-seo": 1.7.4
     "@strapi/plugin-users-permissions": 4.3.2
     "@strapi/strapi": 4.3.2
     better-sqlite3: 7.4.6
-    strapi-google-auth: ^0.1.2
-    strapi-plugin-comments: ^2.1.8
-    strapi-plugin-config-sync: ^1.0.2
-    strapi-plugin-email-designer: ^2.1.1
-    strapi-plugin-notes: ^1.0.1
-    strapi-plugin-passwordless: ^4.0.8
-    strapi-plugin-plausible: ^1.0.4
-    strapi-plugin-sitemap: ^2.0.8
-    strapi-plugin-vercel-deploy: ^1.3.1
-    strapi-plugin-wysiwsg-react-md-editor: ^4.2.0
+    strapi-google-auth: 0.1.2
+    strapi-plugin-comments: 2.1.8
+    strapi-plugin-config-sync: 1.0.2
+    strapi-plugin-email-designer: 2.1.1
+    strapi-plugin-notes: 1.0.1
+    strapi-plugin-passwordless: 4.0.8
+    strapi-plugin-plausible: 1.0.4
+    strapi-plugin-sitemap: 2.0.8
+    strapi-plugin-vercel-deploy: 1.3.1
+    strapi-plugin-wysiwsg-react-md-editor: 4.2.0
   languageName: unknown
   linkType: soft
 
@@ -16163,7 +16163,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-google-auth@npm:^0.1.2":
+"strapi-google-auth@npm:0.1.2":
   version: 0.1.2
   resolution: "strapi-google-auth@npm:0.1.2"
   dependencies:
@@ -16175,7 +16175,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-comments@npm:^2.1.8":
+"strapi-plugin-comments@npm:2.1.8":
   version: 2.1.8
   resolution: "strapi-plugin-comments@npm:2.1.8"
   dependencies:
@@ -16188,7 +16188,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-config-sync@npm:^1.0.2":
+"strapi-plugin-config-sync@npm:1.0.2":
   version: 1.0.2
   resolution: "strapi-plugin-config-sync@npm:1.0.2"
   dependencies:
@@ -16209,7 +16209,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-email-designer@npm:^2.1.1":
+"strapi-plugin-email-designer@npm:2.1.1":
   version: 2.1.1
   resolution: "strapi-plugin-email-designer@npm:2.1.1"
   dependencies:
@@ -16227,7 +16227,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-notes@npm:^1.0.1":
+"strapi-plugin-notes@npm:1.0.1":
   version: 1.0.1
   resolution: "strapi-plugin-notes@npm:1.0.1"
   peerDependencies:
@@ -16236,7 +16236,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-passwordless@npm:^4.0.8":
+"strapi-plugin-passwordless@npm:4.0.8":
   version: 4.0.8
   resolution: "strapi-plugin-passwordless@npm:4.0.8"
   dependencies:
@@ -16247,7 +16247,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-plausible@npm:^1.0.4":
+"strapi-plugin-plausible@npm:1.0.4":
   version: 1.0.4
   resolution: "strapi-plugin-plausible@npm:1.0.4"
   peerDependencies:
@@ -16256,7 +16256,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-sitemap@npm:^2.0.8":
+"strapi-plugin-sitemap@npm:2.0.8":
   version: 2.0.8
   resolution: "strapi-plugin-sitemap@npm:2.0.8"
   dependencies:
@@ -16271,7 +16271,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-vercel-deploy@npm:^1.3.1":
+"strapi-plugin-vercel-deploy@npm:1.3.1":
   version: 1.3.1
   resolution: "strapi-plugin-vercel-deploy@npm:1.3.1"
   dependencies:
@@ -16282,7 +16282,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-wysiwsg-react-md-editor@npm:^4.2.0":
+"strapi-plugin-wysiwsg-react-md-editor@npm:4.2.0":
   version: 4.2.0
   resolution: "strapi-plugin-wysiwsg-react-md-editor@npm:4.2.0"
   dependencies:
