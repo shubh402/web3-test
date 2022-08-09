@@ -4341,18 +4341,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.14":
-  version: 8.4.14
-  resolution: "postcss@npm:8.4.14"
-  dependencies:
-    nanoid: ^3.3.4
-    picocolors: ^1.0.0
-    source-map-js: ^1.0.2
-  checksum: fe58766ff32e4becf65a7d57678995cfd239df6deed2fe0557f038b47c94e4132e7e5f68b5aa820c13adfec32e523b693efaeb65798efb995ce49ccd83953816
-  languageName: node
-  linkType: hard
-
-"postcss@npm:^8.4.14":
+"postcss@npm:8.4.16, postcss@npm:^8.4.14":
   version: 8.4.16
   resolution: "postcss@npm:8.4.16"
   dependencies:
@@ -5131,9 +5120,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:3.1.7":
-  version: 3.1.7
-  resolution: "tailwindcss@npm:3.1.7"
+"tailwindcss@npm:3.1.8":
+  version: 3.1.8
+  resolution: "tailwindcss@npm:3.1.8"
   dependencies:
     arg: ^5.0.2
     chokidar: ^3.5.3
@@ -5162,7 +5151,7 @@ __metadata:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: adbc9869b72f741e9a0fc281b79710863617a588fd5d897316b676f789b6482c79f46f324223300ca962afbe55bed3ec16a37a6ccf4bb2c99c53cf8c5dd9700d
+  checksum: 86480301fc6ae1e392c2aba8264ab425bd919078176b010fda724518a7c265e950da5f4120c69c9041509c318207985fa9d680b6f5021e23f8214135a61a54b6
   languageName: node
   linkType: hard
 
@@ -5436,14 +5425,14 @@ __metadata:
     eslint-config-prettier: 8.5.0
     eslint-plugin-svelte3: 4.0.0
     hardhat: 2.10.1
-    postcss: 8.4.14
+    postcss: 8.4.16
     postcss-load-config: 4.0.1
     prettier: 2.7.1
     prettier-plugin-svelte: 2.7.0
     svelte: 3.49.0
     svelte-check: 2.8.0
     svelte-preprocess: 4.10.7
-    tailwindcss: 3.1.7
+    tailwindcss: 3.1.8
     tslib: 2.4.0
     typescript: 4.7.4
   languageName: unknown
