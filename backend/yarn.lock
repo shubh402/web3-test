@@ -5212,7 +5212,7 @@ __metadata:
     "@strapi/plugin-seo": 1.7.4
     "@strapi/plugin-users-permissions": 4.3.2
     "@strapi/strapi": 4.3.2
-    better-sqlite3: 7.4.6
+    better-sqlite3: 7.6.2
     strapi-google-auth: 0.1.2
     strapi-plugin-comments: 2.1.8
     strapi-plugin-config-sync: 1.0.3
@@ -5308,15 +5308,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:7.4.6":
-  version: 7.4.6
-  resolution: "better-sqlite3@npm:7.4.6"
+"better-sqlite3@npm:7.6.2":
+  version: 7.6.2
+  resolution: "better-sqlite3@npm:7.6.2"
   dependencies:
     bindings: ^1.5.0
     node-gyp: latest
-    prebuild-install: ^7.0.0
-    tar: ^6.1.11
-  checksum: 593241b9deb6621c7f4c72f1679c3b07b5711df48d91a6743119e4563866c3c1ba62f1ebfd34181d14144cdb8f287811b9391a16d384fdfb25089b88ee6a5633
+    prebuild-install: ^7.1.0
+  checksum: 45159e535d2c4f81456f85adcfef82e8a49025ca3e70a79bb8c0a47c13e4d822633a51b457cc37b986c42f8912344152091c91cab485048a187900aab7e7d619
   languageName: node
   linkType: hard
 
@@ -13885,7 +13884,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prebuild-install@npm:^7.0.0, prebuild-install@npm:^7.1.1":
+"prebuild-install@npm:^7.1.0, prebuild-install@npm:^7.1.1":
   version: 7.1.1
   resolution: "prebuild-install@npm:7.1.1"
   dependencies:
