@@ -5,14 +5,14 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@_sh/strapi-plugin-ckeditor@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@_sh/strapi-plugin-ckeditor@npm:1.1.1"
+"@_sh/strapi-plugin-ckeditor@npm:1.1.2":
+  version: 1.1.2
+  resolution: "@_sh/strapi-plugin-ckeditor@npm:1.1.2"
   dependencies:
-    "@ckeditor/ckeditor5-react": 5.0.0
+    "@ckeditor/ckeditor5-react": 5.0.2
   peerDependencies:
     "@strapi/strapi": ^4.0.0
-  checksum: ed22d472a2f3e8ba1dbea9c4f799a956b8f83c3a645ccb8786ee4674c5736b388d264e955b474c5af6ad2d6b82e279ca403e62793e1b0f7e105ac48312401dd0
+  checksum: ef343055e4f85aba872baa4a05222de9d45c0086a430aecde751a8c15e4738ed0da322181bb4d4873ad1a38b93b42c1d34f60427d3ea8bba319e5192c17b3db8
   languageName: node
   linkType: hard
 
@@ -1661,14 +1661,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ckeditor/ckeditor5-react@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@ckeditor/ckeditor5-react@npm:5.0.0"
+"@ckeditor/ckeditor5-react@npm:5.0.2":
+  version: 5.0.2
+  resolution: "@ckeditor/ckeditor5-react@npm:5.0.2"
   dependencies:
     prop-types: ^15.7.2
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
-  checksum: 184e04bee9fa67ff2ff4816049f9e041c3c4e085adca7e9388a80fbd31ad4bcaa3bea43637781aba94f7b8685c99b0d38eabdfa6b11ea1044a55d5f67ca878de
+  checksum: 867621df25b112e85da28d96ee97801dbfe2009ac5f59d79341531826edc1da2294e7177a3574f274ef64f3cac32f48b0080fb5f3d51a371fec8de41108ad565
   languageName: node
   linkType: hard
 
@@ -5831,7 +5831,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "backend@workspace:."
   dependencies:
-    "@_sh/strapi-plugin-ckeditor": 1.1.1
+    "@_sh/strapi-plugin-ckeditor": 1.1.2
     "@exfabrica/strapi-plugin-awesome-seo": 1.0.0-beta.1.1
     "@localazy/strapi-plugin": 0.1.9
     "@notum-cz/strapi-plugin-content-versioning": 0.4.3
