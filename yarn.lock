@@ -2890,9 +2890,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hardhat@npm:2.10.1":
-  version: 2.10.1
-  resolution: "hardhat@npm:2.10.1"
+"hardhat@npm:2.10.2":
+  version: 2.10.2
+  resolution: "hardhat@npm:2.10.2"
   dependencies:
     "@ethereumjs/block": ^3.6.2
     "@ethereumjs/blockchain": ^5.5.2
@@ -2952,7 +2952,7 @@ __metadata:
       optional: true
   bin:
     hardhat: internal/cli/cli.js
-  checksum: ca9060a25fc620f7be412eb49496603dbb311e2eff0a5d689aa632ff7947aa433009fe4155250acb81daaa6557fb075602174e8313460659891233768881f368
+  checksum: 3034a213d25d2727fc80e4b45a6e82dc0ae01ec7b9fb669ee3650fa8a1ba8d38f29f689440826b8747fb2647882da15efb524d077e18c7e9eb55ebd574b9052a
   languageName: node
   linkType: hard
 
@@ -5424,7 +5424,7 @@ __metadata:
     eslint: 8.22.0
     eslint-config-prettier: 8.5.0
     eslint-plugin-svelte3: 4.0.0
-    hardhat: 2.10.1
+    hardhat: 2.10.2
     postcss: 8.4.16
     postcss-load-config: 4.0.1
     prettier: 2.7.1
