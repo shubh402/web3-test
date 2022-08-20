@@ -14,7 +14,7 @@
     "@exfabrica/strapi-plugin-awesome-seo": "1.0.0-beta.1.1",
     "@localazy/strapi-plugin": "0.1.9",
     "@notum-cz/strapi-plugin-content-versioning": "0.4.3",
-    "@offset-dev/strapi-calendar": "0.0.7",
+    "@offset-dev/strapi-calendar": "0.0.8",
     "@strapi-newsletter/strapi": "0.1.2",
     "@strapi/plugin-documentation": "4.3.4",
     "@strapi/plugin-i18n": "4.3.4",
