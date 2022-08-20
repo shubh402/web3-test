@@ -1458,7 +1458,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:7.18.9, @babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.14.5, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.17.2, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.4.4, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.3, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:7.18.9, @babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.14.5, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.17.2, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.18.6, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.4.4, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.3, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
   version: 7.18.9
   resolution: "@babel/runtime@npm:7.18.9"
   dependencies:
@@ -1552,6 +1552,55 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@date-io/core@npm:^2.15.0":
+  version: 2.15.0
+  resolution: "@date-io/core@npm:2.15.0"
+  checksum: 5ecb264230a5bbf753177f84c7fa4e778b03d85bafb63709ca9211c373d52dae5decb6884bbe8f0a17bb2f17fc9184e418ca54da147106dfdb83fce6fb96631f
+  languageName: node
+  linkType: hard
+
+"@date-io/date-fns@npm:^2.15.0":
+  version: 2.15.0
+  resolution: "@date-io/date-fns@npm:2.15.0"
+  dependencies:
+    "@date-io/core": ^2.15.0
+  peerDependencies:
+    date-fns: ^2.0.0
+  peerDependenciesMeta:
+    date-fns:
+      optional: true
+  checksum: 5aacac0efc50b6ae2d53d78b827a62a64fcf51e61dc4091aefec53db668ceadea0695f3cf878f89955b23a961deae5410dcbc5fd1d9326945c51bbb2f00d7aa9
+  languageName: node
+  linkType: hard
+
+"@date-io/dayjs@npm:^2.15.0":
+  version: 2.15.0
+  resolution: "@date-io/dayjs@npm:2.15.0"
+  dependencies:
+    "@date-io/core": ^2.15.0
+  peerDependencies:
+    dayjs: ^1.8.17
+  peerDependenciesMeta:
+    dayjs:
+      optional: true
+  checksum: 3c06544f00ee33ea08d9002e988555f156559f06142bffcc9877f284057ae1aaa53967d97df771afabbb1fa87643d2f10130ee4d1f0fd7337ebdf2eba57a3018
+  languageName: node
+  linkType: hard
+
+"@date-io/luxon@npm:^2.15.0":
+  version: 2.15.0
+  resolution: "@date-io/luxon@npm:2.15.0"
+  dependencies:
+    "@date-io/core": ^2.15.0
+  peerDependencies:
+    luxon: ^1.21.3 || ^2.x
+  peerDependenciesMeta:
+    luxon:
+      optional: true
+  checksum: 727ae1341040459fdf9ec4b818f46f926dba4f2b7258ae1f0c5da3b040e520322d451a5c5db6c1e6c150173e2a2ea384b56fc2d158352804c2b4e984324fceaf
+  languageName: node
+  linkType: hard
+
 "@date-io/moment@npm:^1.3.11":
   version: 1.3.13
   resolution: "@date-io/moment@npm:1.3.13"
@@ -1560,6 +1609,20 @@ __metadata:
   peerDependencies:
     moment: ^2.24.0
   checksum: c4847f9d1bf09bb22c1acc5806fc50825c0bdb52408c9fec8cc5f9a65f16a8014870b5890a0eeb73b2c53a6487c35acbd2ab2a5c49068ff5a5dccbcb5c9e654b
+  languageName: node
+  linkType: hard
+
+"@date-io/moment@npm:^2.15.0":
+  version: 2.15.0
+  resolution: "@date-io/moment@npm:2.15.0"
+  dependencies:
+    "@date-io/core": ^2.15.0
+  peerDependencies:
+    moment: ^2.24.0
+  peerDependenciesMeta:
+    moment:
+      optional: true
+  checksum: a2d5061ae2c7204f06bf5ced285685f2b1d73d8f89235c5344878b41266a920de72388d5c2b004be22b50982519efc824e5a9e9e89725de86bd6afd0740c5934
   languageName: node
   linkType: hard
 
@@ -2695,7 +2758,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mui/utils@npm:^5.9.3":
+"@mui/utils@npm:^5.4.1, @mui/utils@npm:^5.9.3":
   version: 5.9.3
   resolution: "@mui/utils@npm:5.9.3"
   dependencies:
@@ -2707,6 +2770,50 @@ __metadata:
   peerDependencies:
     react: ^17.0.0 || ^18.0.0
   checksum: 745a9c5634a1b1104a64eb77341ed48dabf3afcc2bab6d67ce875d0fdd7c3ee5d115f0613a7782a8406b34e0e29e15c6293cac540711161ff9aba720b2478a60
+  languageName: node
+  linkType: hard
+
+"@mui/x-date-pickers@npm:^5.0.0-beta.6":
+  version: 5.0.0-beta.6
+  resolution: "@mui/x-date-pickers@npm:5.0.0-beta.6"
+  dependencies:
+    "@babel/runtime": ^7.18.6
+    "@date-io/core": ^2.15.0
+    "@date-io/date-fns": ^2.15.0
+    "@date-io/dayjs": ^2.15.0
+    "@date-io/luxon": ^2.15.0
+    "@date-io/moment": ^2.15.0
+    "@mui/utils": ^5.4.1
+    "@types/react-transition-group": ^4.4.5
+    clsx: ^1.2.1
+    prop-types: ^15.7.2
+    react-transition-group: ^4.4.5
+    rifm: ^0.12.1
+  peerDependencies:
+    "@emotion/react": ^11.9.0
+    "@emotion/styled": ^11.8.1
+    "@mui/material": ^5.4.1
+    "@mui/system": ^5.4.1
+    date-fns: ^2.25.0
+    dayjs: ^1.10.7
+    luxon: ^1.28.0 || ^2.0.0 || ^3.0.0
+    moment: ^2.29.1
+    react: ^17.0.2 || ^18.0.0
+    react-dom: ^17.0.2 || ^18.0.0
+  peerDependenciesMeta:
+    "@emotion/react":
+      optional: true
+    "@emotion/styled":
+      optional: true
+    date-fns:
+      optional: true
+    dayjs:
+      optional: true
+    luxon:
+      optional: true
+    moment:
+      optional: true
+  checksum: 86c76e7650fb4e70050b1bcf51e829a73562ecef30fd0f1afb5c9bb9afd0ce206fa19f2315ed69b4dafdedd0fc2cd5c54bb7fd129008bf7cc11a1bef5fb141f4
   languageName: node
   linkType: hard
 
@@ -2770,9 +2877,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@offset-dev/strapi-calendar@npm:0.0.7":
-  version: 0.0.7
-  resolution: "@offset-dev/strapi-calendar@npm:0.0.7"
+"@offset-dev/strapi-calendar@npm:0.0.8":
+  version: 0.0.8
+  resolution: "@offset-dev/strapi-calendar@npm:0.0.8"
   dependencies:
     "@devexpress/dx-react-core": ^3.0.3
     "@devexpress/dx-react-scheduler": ^3.0.3
@@ -2783,11 +2890,12 @@ __metadata:
     "@mui/lab": ^5.0.0-alpha.82
     "@mui/material": ^5.8.0
     "@mui/styles": ^5.8.0
+    "@mui/x-date-pickers": ^5.0.0-beta.6
     moment: ^2.29.3
     react-color: ^2.19.3
   peerDependencies:
     "@strapi/strapi": ^4.0.0
-  checksum: 5319fdf439ef753b2a34f104596c62014c63de8fe5f91e3a062ade6f0b092f9bc37ea770f962cc325c5f7474557994b37bddcf31a75b314d2b4df47f9108d822
+  checksum: e62c859c3e129b81756505d7732a961f264be417c88aca24d987b05654f2e4b54c49fc4720d5ad1ae53742b9cf487f492781d94783363503a344dc1b2cf3ef70
   languageName: node
   linkType: hard
 
@@ -5249,7 +5357,7 @@ __metadata:
     "@exfabrica/strapi-plugin-awesome-seo": 1.0.0-beta.1.1
     "@localazy/strapi-plugin": 0.1.9
     "@notum-cz/strapi-plugin-content-versioning": 0.4.3
-    "@offset-dev/strapi-calendar": 0.0.7
+    "@offset-dev/strapi-calendar": 0.0.8
     "@strapi-newsletter/strapi": 0.1.2
     "@strapi/plugin-documentation": 4.3.4
     "@strapi/plugin-i18n": 4.3.4
@@ -15319,6 +15427,15 @@ __metadata:
   version: 1.0.4
   resolution: "reusify@npm:1.0.4"
   checksum: c3076ebcc22a6bc252cb0b9c77561795256c22b757f40c0d8110b1300723f15ec0fc8685e8d4ea6d7666f36c79ccc793b1939c748bf36f18f542744a4e379fcc
+  languageName: node
+  linkType: hard
+
+"rifm@npm:^0.12.1":
+  version: 0.12.1
+  resolution: "rifm@npm:0.12.1"
+  peerDependencies:
+    react: ">=16.8"
+  checksum: 7f11621b6a14885bdee0b49c21174627272a5f683f74aaf8444570dae319f86de38d2af55c17e08af1ebb837bf956894971cceadeaca890e4c9cd1d46f02a385
   languageName: node
   linkType: hard
 
