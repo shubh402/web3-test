@@ -2816,9 +2816,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@offset-dev/strapi-calendar@npm:0.0.8":
-  version: 0.0.8
-  resolution: "@offset-dev/strapi-calendar@npm:0.0.8"
+"@offset-dev/strapi-calendar@npm:0.0.9":
+  version: 0.0.9
+  resolution: "@offset-dev/strapi-calendar@npm:0.0.9"
   dependencies:
     "@devexpress/dx-react-core": ^3.0.3
     "@devexpress/dx-react-scheduler": ^3.0.3
@@ -2834,7 +2834,7 @@ __metadata:
     react-color: ^2.19.3
   peerDependencies:
     "@strapi/strapi": ^4.0.0
-  checksum: e62c859c3e129b81756505d7732a961f264be417c88aca24d987b05654f2e4b54c49fc4720d5ad1ae53742b9cf487f492781d94783363503a344dc1b2cf3ef70
+  checksum: af47f58b9bb8e2ec9ca1263d450b21b1c24bb4e990efd0f1c68277ca92cd6070d8267779f8faba713f832986896265ce1ce6cb3e53df2b27d5a0232be6fdb57d
   languageName: node
   linkType: hard
 
@@ -5276,7 +5276,7 @@ __metadata:
     "@exfabrica/strapi-plugin-awesome-seo": 1.0.0-beta.1.1
     "@localazy/strapi-plugin": 0.1.9
     "@notum-cz/strapi-plugin-content-versioning": 0.4.4
-    "@offset-dev/strapi-calendar": 0.0.8
+    "@offset-dev/strapi-calendar": 0.0.9
     "@strapi-newsletter/strapi": 0.1.2
     "@strapi/plugin-documentation": 4.3.6
     "@strapi/plugin-i18n": 4.3.6
