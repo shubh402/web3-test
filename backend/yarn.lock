@@ -2376,9 +2376,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@localazy/strapi-plugin@npm:0.1.9":
-  version: 0.1.9
-  resolution: "@localazy/strapi-plugin@npm:0.1.9"
+"@localazy/strapi-plugin@npm:0.1.10":
+  version: 0.1.10
+  resolution: "@localazy/strapi-plugin@npm:0.1.10"
   dependencies:
     "@localazy/ts-api": ^1.0.6
     deep-keys: ^0.5.0
@@ -2394,7 +2394,7 @@ __metadata:
     "@strapi/design-system": ^1.0.0
     "@strapi/icons": ^1.0.0
     "@strapi/strapi": ^4.0.0
-  checksum: b344866bba1480b604bfbaec261c2ffb878fee6819a186dc7e6ca094546d94514dff278ecf58a6350ab12b7f4ab0f07e48f31cde5152fe29c6b18f55f2ddb0bd
+  checksum: 897b3f001b132838b7527c1c340d6807d9a98a3511e362850ce771fdf6f1d87925e0838a8bcf28b74284629fbcd504037b43c6c0979953240e4d4777cc5b6d64
   languageName: node
   linkType: hard
 
@@ -5694,7 +5694,7 @@ __metadata:
   dependencies:
     "@_sh/strapi-plugin-ckeditor": 1.1.2
     "@exfabrica/strapi-plugin-awesome-seo": 1.0.0-beta.1.1
-    "@localazy/strapi-plugin": 0.1.9
+    "@localazy/strapi-plugin": 0.1.10
     "@notum-cz/strapi-plugin-content-versioning": 0.4.4
     "@offset-dev/strapi-calendar": 0.0.9
     "@strapi-newsletter/strapi": 0.1.2
