@@ -5238,10 +5238,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:3.50.0":
-  version: 3.50.0
-  resolution: "svelte@npm:3.50.0"
-  checksum: cc8e8fd14bac3add208b00b9c2ffd64d343f29f84a626899762b3c9d00010cab5f49dce44d376acb270f996c860ad49b727d2bf140f434f2b959061b22249548
+"svelte@npm:3.50.1":
+  version: 3.50.1
+  resolution: "svelte@npm:3.50.1"
+  checksum: 58d2d8f2c2cdb1695ca41290d241780ad662aeb4d8af8def372820a5fac3185245d6abf5ac7bbae17b9033d907ccab0aa071d0650bc3f0379c5c3818001e41c5
   languageName: node
   linkType: hard
 
@@ -5426,7 +5426,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:*, typescript@npm:4.8.2":
+"typescript@npm:*":
   version: 4.8.2
   resolution: "typescript@npm:4.8.2"
   bin:
@@ -5436,13 +5436,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@*#~builtin<compat/typescript>, typescript@patch:typescript@4.8.2#~builtin<compat/typescript>":
+"typescript@npm:4.8.3":
+  version: 4.8.3
+  resolution: "typescript@npm:4.8.3"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 8286a5edcaf3d68e65c451aa1e7150ad1cf53ee0813c07ec35b7abdfdb10f355ecaa13c6a226a694ae7a67785fd7eeebf89f845da0b4f7e4a35561ddc459aba0
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@*#~builtin<compat/typescript>":
   version: 4.8.2
   resolution: "typescript@patch:typescript@npm%3A4.8.2#~builtin<compat/typescript>::version=4.8.2&hash=a1c5e5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 5cb0f02f414f5405f4b0e7ee1fd7fa9177b6a8783c9017b6cad85f56ce4c4f93e0e6f2ce37e863cb597d44227cd009474c9fbd85bf7a50004e5557426cb58079
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@4.8.3#~builtin<compat/typescript>":
+  version: 4.8.3
+  resolution: "typescript@patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 2222d2382fb3146089b1d27ce2b55e9d1f99cc64118f1aba75809b693b856c5d3c324f052f60c75b577947fc538bc1c27bad0eb76cbdba9a63a253489504ba7e
   languageName: node
   linkType: hard
 
@@ -5554,12 +5574,12 @@ __metadata:
     postcss-load-config: 4.0.1
     prettier: 2.7.1
     prettier-plugin-svelte: 2.7.0
-    svelte: 3.50.0
+    svelte: 3.50.1
     svelte-check: 2.9.0
     svelte-preprocess: 4.10.7
     tailwindcss: 3.1.8
     tslib: 2.4.0
-    typescript: 4.8.2
+    typescript: 4.8.3
   languageName: unknown
   linkType: soft
 
