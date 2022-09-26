@@ -4514,13 +4514,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-svelte@npm:2.7.0":
-  version: 2.7.0
-  resolution: "prettier-plugin-svelte@npm:2.7.0"
+"prettier-plugin-svelte@npm:2.7.1":
+  version: 2.7.1
+  resolution: "prettier-plugin-svelte@npm:2.7.1"
   peerDependencies:
     prettier: ^1.16.4 || ^2.0.0
     svelte: ^3.2.0
-  checksum: 4b38d0d856f5d9099ce64cbfaeffc941f4b408285eb8bb6c0624ba484b2cad99c90e82da00bd8ab55eeaa54caf8d0bd89af602cdf63f5b6e1f0b7e0a53672503
+  checksum: 803bead66d88c08742ac9df14ababb22bde95468bd4e87de1fb0ea9bfe91b72d17cedaa343e343b11d4e97d057d912fc75e39cf6ab9a5b8c46d51248327b083b
   languageName: node
   linkType: hard
 
@@ -5196,9 +5196,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-check@npm:2.9.0":
-  version: 2.9.0
-  resolution: "svelte-check@npm:2.9.0"
+"svelte-check@npm:2.9.1":
+  version: 2.9.1
+  resolution: "svelte-check@npm:2.9.1"
   dependencies:
     "@jridgewell/trace-mapping": ^0.3.9
     chokidar: ^3.4.1
@@ -5212,7 +5212,7 @@ __metadata:
     svelte: ^3.24.0
   bin:
     svelte-check: bin/svelte-check
-  checksum: b224177e553d4d0ba1e5e2b438b2674a30530cde636849828757868555af36de902aa114db356f0e954e24d85da225441b5248e3e3b0090f8d757794bbcd610d
+  checksum: b7ee58216abd9f4884ee0b8b2f34a35ae625279e1642c8987a934843a50ab0959f6fd5d87a8829dbc0ea742778ac3fb1b1fbfef9bfc47ee05635ed0b4d4f5e74
   languageName: node
   linkType: hard
 
@@ -5589,9 +5589,9 @@ __metadata:
     postcss: 8.4.16
     postcss-load-config: 4.0.1
     prettier: 2.7.1
-    prettier-plugin-svelte: 2.7.0
+    prettier-plugin-svelte: 2.7.1
     svelte: 3.50.1
-    svelte-check: 2.9.0
+    svelte-check: 2.9.1
     svelte-preprocess: 4.10.7
     tailwindcss: 3.1.8
     tslib: 2.4.0
