@@ -265,10 +265,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource/fira-mono@npm:4.5.9":
-  version: 4.5.9
-  resolution: "@fontsource/fira-mono@npm:4.5.9"
-  checksum: 1126789895a612e44ef564b8b36057a82ca5611b992c5cad1b6734cb0b82fb76cca9b17ce97af0f66c7e5d04369a1bba0ac8d5051e8fbf09fa39bc9c07857f52
+"@fontsource/fira-mono@npm:4.5.10":
+  version: 4.5.10
+  resolution: "@fontsource/fira-mono@npm:4.5.10"
+  checksum: 0bf058ff1d6f4dcd0bedb4d459ed21124ffd93b7ca1c540068f98057fd7cf96320c69126e88caf1bc5e318c920d9157a2b0b30fd0835573ea6808ffa63c16fad
   languageName: node
   linkType: hard
 
@@ -5603,7 +5603,7 @@ __metadata:
   resolution: "web3-test@workspace:."
   dependencies:
     "@faker-js/faker": 7.5.0
-    "@fontsource/fira-mono": 4.5.9
+    "@fontsource/fira-mono": 4.5.10
     "@playwright/test": 1.26.1
     "@sveltejs/adapter-auto": next
     "@sveltejs/kit": next
