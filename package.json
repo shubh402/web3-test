@@ -39,7 +39,7 @@
 	"type": "module",
 	"dependencies": {
 		"@faker-js/faker": "7.5.0",
-		"@fontsource/fira-mono": "4.5.9",
+		"@fontsource/fira-mono": "4.5.10",
 		"code-oss-dev": "0.0.1-security",
 		"cookie": "0.5.0"
 	},
