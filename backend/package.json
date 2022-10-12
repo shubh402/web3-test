@@ -23,7 +23,7 @@
     "@strapi/strapi": "4.4.3",
     "better-sqlite3": "7.6.2",
     "strapi-google-auth": "0.1.2",
-    "strapi-plugin-comments": "2.1.8",
+    "strapi-plugin-comments": "2.2.0",
     "strapi-plugin-config-sync": "1.0.4",
     "strapi-plugin-email-designer": "2.1.1",
     "strapi-plugin-notes": "1.0.1",
