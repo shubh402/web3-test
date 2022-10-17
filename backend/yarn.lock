@@ -3616,16 +3616,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/plugin-seo@npm:1.7.5":
-  version: 1.7.5
-  resolution: "@strapi/plugin-seo@npm:1.7.5"
+"@strapi/plugin-seo@npm:1.7.6":
+  version: 1.7.6
+  resolution: "@strapi/plugin-seo@npm:1.7.6"
   dependencies:
     eslint-plugin-react-hooks: ^4.3.0
     lodash: ^4.17.21
     showdown: ^1.9.1
   peerDependencies:
     "@strapi/strapi": ^4.0.0
-  checksum: 46f3721c246ac16f1d642f2b2a5148a778ba18d20ad5ea1f8a28db709f7dcb50e4df078385910b37611e8e1906f0995424e1b058f2090f55b99cdcd680246cf2
+  checksum: 6599c71885fe3793db9a1458139137953fb0bf34f4474fe33a45e96ac621596aa68f6fdd0509912ce27fb67960ce17a58aa2639c4574af0248cc2735e0ac556d
   languageName: node
   linkType: hard
 
@@ -5471,7 +5471,7 @@ __metadata:
     "@strapi-newsletter/strapi": 0.1.2
     "@strapi/plugin-documentation": 4.4.3
     "@strapi/plugin-i18n": 4.4.3
-    "@strapi/plugin-seo": 1.7.5
+    "@strapi/plugin-seo": 1.7.6
     "@strapi/plugin-users-permissions": 4.4.3
     "@strapi/strapi": 4.4.3
     better-sqlite3: 7.6.2
