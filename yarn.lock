@@ -3064,9 +3064,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hardhat@npm:2.12.0":
-  version: 2.12.0
-  resolution: "hardhat@npm:2.12.0"
+"hardhat@npm:2.12.1":
+  version: 2.12.1
+  resolution: "hardhat@npm:2.12.1"
   dependencies:
     "@ethersproject/abi": ^5.1.2
     "@metamask/eth-sig-util": ^4.0.0
@@ -3128,7 +3128,7 @@ __metadata:
       optional: true
   bin:
     hardhat: internal/cli/cli.js
-  checksum: 28ae9e7d6cf8e66167a94efbabd5ac4c086f0c05a77b190162906f1dd46b4971eb2eb94412b1eaee5626ab2ec6431a94feae15348b10ba10c1a4b7efcef789ec
+  checksum: a2fdec7379b6c61faee15084bfa7d1e70fafd41278f2b6627e131ca1744d8f150ccd5d5a1bd91e85843e7060761d431a7074b10964f9fba17c6650e5ee8ea5e0
   languageName: node
   linkType: hard
 
@@ -5551,7 +5551,7 @@ __metadata:
     eslint: 8.26.0
     eslint-config-prettier: 8.5.0
     eslint-plugin-svelte3: 4.0.0
-    hardhat: 2.12.0
+    hardhat: 2.12.1
     postcss: 8.4.18
     postcss-load-config: 4.0.1
     prettier: 2.7.1
