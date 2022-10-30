@@ -278,13 +278,13 @@ __metadata:
   linkType: hard
 
 "@humanwhocodes/config-array@npm:^0.11.6":
-  version: 0.11.6
-  resolution: "@humanwhocodes/config-array@npm:0.11.6"
+  version: 0.11.7
+  resolution: "@humanwhocodes/config-array@npm:0.11.7"
   dependencies:
     "@humanwhocodes/object-schema": ^1.2.1
     debug: ^4.1.1
-    minimatch: ^3.0.4
-  checksum: 2fb7288638968dfeec27f06aef52f043726edd126ac47f24b54256902fdb35b3bf9863d4a4caf0423dccca5dd1354ca5899f3ac047b56774641ca0c4cbedb104
+    minimatch: ^3.0.5
+  checksum: cf506dc45d9488af7fbf108ea6ac2151ba1a25e6d2b94b9b4fc36d2c1e4099b89ff560296dbfa13947e44604d4ca4a90d97a4fb167370bf8dd01a6ca2b6d83ac
   languageName: node
   linkType: hard
 
@@ -717,16 +717,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^4.2.1":
-  version: 4.2.1
-  resolution: "@rollup/pluginutils@npm:4.2.1"
-  dependencies:
-    estree-walker: ^2.0.1
-    picomatch: ^2.2.2
-  checksum: 6bc41f22b1a0f1efec3043899e4d3b6b1497b3dea4d94292d8f83b4cf07a1073ecbaedd562a22d11913ff7659f459677b01b09e9598a98936e746780ecc93a12
-  languageName: node
-  linkType: hard
-
 "@scure/base@npm:~1.1.0":
   version: 1.1.1
   resolution: "@scure/base@npm:1.1.1"
@@ -838,13 +828,13 @@ __metadata:
   linkType: hard
 
 "@sveltejs/adapter-auto@npm:next":
-  version: 1.0.0-next.84
-  resolution: "@sveltejs/adapter-auto@npm:1.0.0-next.84"
+  version: 1.0.0-next.85
+  resolution: "@sveltejs/adapter-auto@npm:1.0.0-next.85"
   dependencies:
     "@sveltejs/adapter-cloudflare": 1.0.0-next.39
-    "@sveltejs/adapter-netlify": 1.0.0-next.81
+    "@sveltejs/adapter-netlify": 1.0.0-next.82
     "@sveltejs/adapter-vercel": 1.0.0-next.80
-  checksum: 99260c6bb12228344ff37a1f689f4a7601fb833efa0c9702e261290da388d51a4a56e721d501586a3c2feb21cad87163eddc2f48d74aea0fb122ba4ee190ff37
+  checksum: 079267c8b537678e2c4b6b764f2888d6bc891af0cf49e8972c502b1d385504770b258cd6465f54f4a686a039d6cd029b506602d4ff30b0065bd9c24e71c32924
   languageName: node
   linkType: hard
 
@@ -859,14 +849,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/adapter-netlify@npm:1.0.0-next.81":
-  version: 1.0.0-next.81
-  resolution: "@sveltejs/adapter-netlify@npm:1.0.0-next.81"
+"@sveltejs/adapter-netlify@npm:1.0.0-next.82":
+  version: 1.0.0-next.82
+  resolution: "@sveltejs/adapter-netlify@npm:1.0.0-next.82"
   dependencies:
     "@iarna/toml": ^2.2.5
     esbuild: ^0.15.7
     set-cookie-parser: ^2.4.8
-  checksum: de0ff4b690df15c7c18d09973e508c0d21088a46ffb52a3d4c51297d4bbfb2c99fd75460a5cef751fd19a9e940b8869f3a627d6dac1d5ce78a3e0b25cfcd1702
+  checksum: 8436b80dde2f27d3effa5096138381c436fd0cbba2f5740d382d088e9c9b3ea14087f5d1f801cb49869bb3ab203c035164251be8903ab2bbbb8f5ae53b07fff6
   languageName: node
   linkType: hard
 
@@ -881,10 +871,10 @@ __metadata:
   linkType: hard
 
 "@sveltejs/kit@npm:next":
-  version: 1.0.0-next.522
-  resolution: "@sveltejs/kit@npm:1.0.0-next.522"
+  version: 1.0.0-next.528
+  resolution: "@sveltejs/kit@npm:1.0.0-next.528"
   dependencies:
-    "@sveltejs/vite-plugin-svelte": ^1.0.5
+    "@sveltejs/vite-plugin-svelte": ^1.1.0
     "@types/cookie": ^0.5.1
     cookie: ^0.5.0
     devalue: ^4.0.0
@@ -895,25 +885,24 @@ __metadata:
     set-cookie-parser: ^2.4.8
     sirv: ^2.0.2
     tiny-glob: ^0.2.9
-    undici: ^5.11.0
+    undici: 5.12.0
   peerDependencies:
     svelte: ^3.44.0
     vite: ^3.1.0
   bin:
     svelte-kit: svelte-kit.js
-  checksum: ae11b07eb2b8d911d74aa1ba3504e3d385a4e049a8886dcecc362c742bc42a4f19614112768a354d1f038df25a58aeeae41ba16b53dbf55a30fed71b0621dc3a
+  checksum: 150cf9b660376f0144872cfd6f14588cba86824a7846853a99f34963f73a07fc1e54275115137521f34227d1239724456da87d5b3559f891c02a1c17d199c326
   languageName: node
   linkType: hard
 
-"@sveltejs/vite-plugin-svelte@npm:^1.0.5":
-  version: 1.0.9
-  resolution: "@sveltejs/vite-plugin-svelte@npm:1.0.9"
+"@sveltejs/vite-plugin-svelte@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@sveltejs/vite-plugin-svelte@npm:1.1.0"
   dependencies:
-    "@rollup/pluginutils": ^4.2.1
     debug: ^4.3.4
     deepmerge: ^4.2.2
     kleur: ^4.1.5
-    magic-string: ^0.26.5
+    magic-string: ^0.26.7
     svelte-hmr: ^0.15.0
   peerDependencies:
     diff-match-patch: ^1.0.5
@@ -922,7 +911,7 @@ __metadata:
   peerDependenciesMeta:
     diff-match-patch:
       optional: true
-  checksum: 3ec5c8f09b3ebc7f747d1d7a030deb39628e7a014d033cc583cb56fb958279d9a09b3b161a0c6766d58129f1962ea74409624394b0f3ebb74c612127c68db834
+  checksum: 401a146aed79b9888b1dcb349c6e79f67502f8233d0208c50446f33b64c790f7e86dfe33fbf0482e485b024f7845438290277155731d81d3ef5208cb7e6dd2fa
   languageName: node
   linkType: hard
 
@@ -980,9 +969,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 18.11.4
-  resolution: "@types/node@npm:18.11.4"
-  checksum: 1de782b4eef4a5115396ae62137f248390ee5d1d9e9eeb49599714554cce1328af43da31bc28e7bab5a0ef859538a584a907b26163a59b42bc87b8317dc00bb8
+  version: 18.11.7
+  resolution: "@types/node@npm:18.11.7"
+  checksum: 69d630825cf6fbf580d08d76a4d4836ef8c34ed4fe0842221ade87d275f517099cbfabe8e22397208e564bd24926db97699ab9db5c091383269a432b336665e2
   languageName: node
   linkType: hard
 
@@ -1021,9 +1010,9 @@ __metadata:
   linkType: hard
 
 "@types/semver@npm:^7.3.12":
-  version: 7.3.12
-  resolution: "@types/semver@npm:7.3.12"
-  checksum: 35536b2fc5602904f21cae681f6c9498e177dab3f54ae37c92f9a1b7e43c35f18bcd81e1c98c1cf0d33ee046bb06c771e9928c1c00a401d56a03f56549252a15
+  version: 7.3.13
+  resolution: "@types/semver@npm:7.3.13"
+  checksum: 00c0724d54757c2f4bc60b5032fe91cda6410e48689633d5f35ece8a0a66445e3e57fa1d6e07eb780f792e82ac542948ec4d0b76eb3484297b79bd18b8cf1cb0
   languageName: node
   linkType: hard
 
@@ -1235,11 +1224,11 @@ __metadata:
   linkType: hard
 
 "acorn@npm:^8.6.0, acorn@npm:^8.8.0":
-  version: 8.8.0
-  resolution: "acorn@npm:8.8.0"
+  version: 8.8.1
+  resolution: "acorn@npm:8.8.1"
   bin:
     acorn: bin/acorn
-  checksum: 7270ca82b242eafe5687a11fea6e088c960af712683756abf0791b68855ea9cace3057bd5e998ffcef50c944810c1e0ca1da526d02b32110e13c722aa959afdc
+  checksum: 4079b67283b94935157698831967642f24a075c52ce3feaaaafe095776dfbe15d86a1b33b1e53860fc0d062ed6c83f4284a5c87c85b9ad51853a01173da6097f
   languageName: node
   linkType: hard
 
@@ -1723,17 +1712,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001400":
-  version: 1.0.30001423
-  resolution: "caniuse-lite@npm:1.0.30001423"
-  checksum: fe443f323f5dc6a858ef7d7deddb93db5e5f9a35e22970c4a65c4ef793bb696c1e2f038df572722d9edf29021e43ed16f5131faafde783563bd0d9eccf486592
-  languageName: node
-  linkType: hard
-
-"caniuse-lite@npm:^1.0.30001426":
-  version: 1.0.30001426
-  resolution: "caniuse-lite@npm:1.0.30001426"
-  checksum: e8b9c14ee33410d95b27da619f50648f373a7be712748970643f25d95fa80687b4755ba365f34a7a1cea00f9137193943aa6e742eedf0a4d7857f83809f49435
+"caniuse-lite@npm:^1.0.30001400, caniuse-lite@npm:^1.0.30001426":
+  version: 1.0.30001427
+  resolution: "caniuse-lite@npm:1.0.30001427"
+  checksum: 7b21a7d1f10c07130cecb7e7c7c38fd031f3dbd49afaee53fa4bb07355f9765686cad14f6296fbb49838f525c35292278b2c5ee9109c363edea5e134514ab6bb
   languageName: node
   linkType: hard
 
@@ -2584,7 +2566,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"estree-walker@npm:2.0.2, estree-walker@npm:^2.0.1":
+"estree-walker@npm:2.0.2":
   version: 2.0.2
   resolution: "estree-walker@npm:2.0.2"
   checksum: 6151e6f9828abe2259e57f5fd3761335bb0d2ebd76dc1a01048ccee22fabcfef3c0859300f6d83ff0d1927849368775ec5a6d265dde2f6de5a1be1721cd94efc
@@ -3689,7 +3671,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.26.2, magic-string@npm:^0.26.5":
+"magic-string@npm:^0.26.2, magic-string@npm:^0.26.7":
   version: 0.26.7
   resolution: "magic-string@npm:0.26.7"
   dependencies:
@@ -3823,7 +3805,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^3.0.4, minimatch@npm:^3.1.1, minimatch@npm:^3.1.2":
+"minimatch@npm:^3.0.4, minimatch@npm:^3.0.5, minimatch@npm:^3.1.1, minimatch@npm:^3.1.2":
   version: 3.1.2
   resolution: "minimatch@npm:3.1.2"
   dependencies:
@@ -4355,7 +4337,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picomatch@npm:^2.0.4, picomatch@npm:^2.2.1, picomatch@npm:^2.2.2, picomatch@npm:^2.3.1":
+"picomatch@npm:^2.0.4, picomatch@npm:^2.2.1, picomatch@npm:^2.3.1":
   version: 2.3.1
   resolution: "picomatch@npm:2.3.1"
   checksum: 050c865ce81119c4822c45d3c84f1ced46f93a0126febae20737bd05ca20589c564d6e9226977df859ed5e03dc73f02584a2b0faad36e896936238238b0446cf
@@ -5460,12 +5442,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:^5.11.0, undici@npm:^5.4.0":
-  version: 5.11.0
-  resolution: "undici@npm:5.11.0"
+"undici@npm:5.12.0, undici@npm:^5.4.0":
+  version: 5.12.0
+  resolution: "undici@npm:5.12.0"
   dependencies:
     busboy: ^1.6.0
-  checksum: 20669ef4023d24a75e81ed8142829f525f16af14d61f833b5f19cfc6bed7c706adde343a190d764dcceb227eba3211222d2b194010462a2ca221a7da0487f563
+  checksum: fbc227704943c05aa3dc1630695e10309c17d0a535678594d136db107c50593248e9ace70e1ab77496a6c837bf14aa2ab3c501a7a6c45fb6277dbf0846e15ffe
   languageName: node
   linkType: hard
 
