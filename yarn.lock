@@ -871,8 +871,8 @@ __metadata:
   linkType: hard
 
 "@sveltejs/kit@npm:next":
-  version: 1.0.0-next.535
-  resolution: "@sveltejs/kit@npm:1.0.0-next.535"
+  version: 1.0.0-next.544
+  resolution: "@sveltejs/kit@npm:1.0.0-next.544"
   dependencies:
     "@sveltejs/vite-plugin-svelte": ^1.1.0
     "@types/cookie": ^0.5.1
@@ -891,13 +891,13 @@ __metadata:
     vite: ^3.2.0
   bin:
     svelte-kit: svelte-kit.js
-  checksum: be4443d2c75db98ff05b476c4eab2e9eac499933e341804df5440e6e36dd44245d46d22c46f511e6adc18ca4704432b24671791a3d5020bc91e059b3a7cbb563
+  checksum: 36559e603fceb0880b5c68328a20e765bac2d5b2b0b1ae1a41f1055a126b2895dc818244ff3395a447fcc23681149193b8886286b01300dae20952e0b4266756
   languageName: node
   linkType: hard
 
 "@sveltejs/vite-plugin-svelte@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@sveltejs/vite-plugin-svelte@npm:1.1.0"
+  version: 1.1.1
+  resolution: "@sveltejs/vite-plugin-svelte@npm:1.1.1"
   dependencies:
     debug: ^4.3.4
     deepmerge: ^4.2.2
@@ -911,7 +911,7 @@ __metadata:
   peerDependenciesMeta:
     diff-match-patch:
       optional: true
-  checksum: 401a146aed79b9888b1dcb349c6e79f67502f8233d0208c50446f33b64c790f7e86dfe33fbf0482e485b024f7845438290277155731d81d3ef5208cb7e6dd2fa
+  checksum: 2818682eff4c2ae49196cc32880ec50b4ff2871d73a1bf9a30545e6ba0911a2ddae374dec3ed0b664984ba9833a1684e0328b03d5fad2c6ff99777322b2789b7
   languageName: node
   linkType: hard
 
@@ -1714,9 +1714,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001400, caniuse-lite@npm:^1.0.30001426":
-  version: 1.0.30001430
-  resolution: "caniuse-lite@npm:1.0.30001430"
-  checksum: 15200fe2658871807341a451b01e3d6ae2bf5e0e30b60af86e1e8d9e1655a5f5011bb23fdc3d6b696019d63d3e60ad6864b15c40c80c538c4500ac5098b9701b
+  version: 1.0.30001431
+  resolution: "caniuse-lite@npm:1.0.30001431"
+  checksum: bc8ab55cd194e240152946b54bfaff7456180cc018674fc7ed134f4f502192405f6643f422feaa0a5e7cc02b5bac564cfac7771ac6d29f5d129482fcfe335ba1
   languageName: node
   linkType: hard
 
@@ -4456,7 +4456,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.19":
+"postcss@npm:8.4.19, postcss@npm:^8.4.18":
   version: 8.4.19
   resolution: "postcss@npm:8.4.19"
   dependencies:
@@ -4464,17 +4464,6 @@ __metadata:
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
   checksum: 62782723a385f92b7525f66d29614624de7c5643855423db3a5efd9287e677650300192749adddbbb6734cea9b1d5f5fd4f6ea00ca3f9a95dbbb88f835f5ca64
-  languageName: node
-  linkType: hard
-
-"postcss@npm:^8.4.18":
-  version: 8.4.18
-  resolution: "postcss@npm:8.4.18"
-  dependencies:
-    nanoid: ^3.3.4
-    picocolors: ^1.0.0
-    source-map-js: ^1.0.2
-  checksum: 9349fd99849b2e3d2e134ff949b7770ecb12375f352723ce2bcc06167eba3850ea7844c1b191a85cd915d6a396b4e8ee9a5267e6cc5d8d003d0cbc7a97555d39
   languageName: node
   linkType: hard
 
