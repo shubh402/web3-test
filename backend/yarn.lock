@@ -1623,6 +1623,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@david-vaclavek/deep-keys@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "@david-vaclavek/deep-keys@npm:0.5.0"
+  checksum: ae4808283d8f832813e1c5a35488a43ad8e8aba7bb4fc555a85aaf7a4a2c7b1c59f7aafefbd8387c3ffff90fb90aba764f4fb83c508b2724e72b85074da1b4f6
+  languageName: node
+  linkType: hard
+
 "@devexpress/dx-core@npm:3.0.6":
   version: 3.0.6
   resolution: "@devexpress/dx-core@npm:3.0.6"
@@ -2509,12 +2516,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@localazy/strapi-plugin@npm:0.1.10":
-  version: 0.1.10
-  resolution: "@localazy/strapi-plugin@npm:0.1.10"
+"@localazy/strapi-plugin@npm:0.1.11":
+  version: 0.1.11
+  resolution: "@localazy/strapi-plugin@npm:0.1.11"
   dependencies:
+    "@david-vaclavek/deep-keys": ^0.5.0
     "@localazy/ts-api": ^1.0.6
-    deep-keys: ^0.5.0
     i18next: ^21.6.13
     isomorphic-fetch: ^3.0.0
     js-cookie: ^3.0.1
@@ -2527,7 +2534,7 @@ __metadata:
     "@strapi/design-system": ^1.0.0
     "@strapi/icons": ^1.0.0
     "@strapi/strapi": ^4.0.0
-  checksum: 897b3f001b132838b7527c1c340d6807d9a98a3511e362850ce771fdf6f1d87925e0838a8bcf28b74284629fbcd504037b43c6c0979953240e4d4777cc5b6d64
+  checksum: 0b5e249cba50725fab2500d2810a6a772fad1972641e4e0f76e2e6bdc4c1a13ccf997eceb86ad38b9e5772d3901f25058978fc265c7088fa64cb2e649843a625
   languageName: node
   linkType: hard
 
@@ -5951,7 +5958,7 @@ __metadata:
   dependencies:
     "@_sh/strapi-plugin-ckeditor": 1.1.2
     "@exfabrica/strapi-plugin-awesome-seo": 1.0.0-beta.1.1
-    "@localazy/strapi-plugin": 0.1.10
+    "@localazy/strapi-plugin": 0.1.11
     "@notum-cz/strapi-plugin-content-versioning": 0.4.4
     "@offset-dev/strapi-calendar": 0.0.9
     "@strapi-newsletter/strapi": 0.1.2
@@ -7885,13 +7892,6 @@ __metadata:
   version: 0.6.0
   resolution: "deep-extend@npm:0.6.0"
   checksum: 7be7e5a8d468d6b10e6a67c3de828f55001b6eb515d014f7aeb9066ce36bd5717161eb47d6a0f7bed8a9083935b465bc163ee2581c8b128d29bf61092fdf57a7
-  languageName: node
-  linkType: hard
-
-"deep-keys@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "deep-keys@npm:0.5.0"
-  checksum: 0f8a9b4042f37067e7bb573a5e4d1250fa6a872012dbbfc1db533874207348ae88140765b04301105ef926bcf95ee849eaa05a535f76ed6702cff9de7724c51b
   languageName: node
   linkType: hard
 
