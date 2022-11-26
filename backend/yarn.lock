@@ -2948,16 +2948,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@notum-cz/strapi-plugin-content-versioning@npm:0.4.4":
-  version: 0.4.4
-  resolution: "@notum-cz/strapi-plugin-content-versioning@npm:0.4.4"
+"@notum-cz/strapi-plugin-content-versioning@npm:0.4.7":
+  version: 0.4.7
+  resolution: "@notum-cz/strapi-plugin-content-versioning@npm:0.4.7"
   dependencies:
     "@strapi/utils": ^4.0.0
     lodash: ^4.17.21
     uuid: ^8.3.2
   peerDependencies:
     "@strapi/strapi": ^4.0.0
-  checksum: bc31f2bc98bc9f93819aa7473cc599d5ff62f458abcae9c05e0d212ae561db9c0faa3cdd6c3343d6f0153da900af71f7a40eb5179ac9cfb49c07c036a14336cb
+  checksum: 895b3b0bc2b5535b95de91b832209cd0eef629768f6c0b8bc461c850a4d1e8f0916649bf27f9128c4978414a0de4a0917efd94a1453ced1b0799a486db617e0e
   languageName: node
   linkType: hard
 
@@ -5961,7 +5961,7 @@ __metadata:
     "@_sh/strapi-plugin-ckeditor": 1.1.2
     "@exfabrica/strapi-plugin-awesome-seo": 1.0.0-beta.1.1
     "@localazy/strapi-plugin": 0.1.11
-    "@notum-cz/strapi-plugin-content-versioning": 0.4.4
+    "@notum-cz/strapi-plugin-content-versioning": 0.4.7
     "@offset-dev/strapi-calendar": 0.0.9
     "@strapi-newsletter/strapi": 0.1.2
     "@strapi/plugin-documentation": 4.5.2
