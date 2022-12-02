@@ -21,7 +21,7 @@
     "@strapi/plugin-seo": "1.7.7",
     "@strapi/plugin-users-permissions": "4.5.3",
     "@strapi/strapi": "4.5.3",
-    "better-sqlite3": "8.0.0",
+    "better-sqlite3": "8.0.1",
     "strapi-google-auth": "0.1.2",
     "strapi-plugin-comments": "2.2.1",
     "strapi-plugin-config-sync": "1.0.4",
