@@ -5588,7 +5588,7 @@ __metadata:
     strapi-plugin-email-designer: 2.1.1
     strapi-plugin-notes: 1.0.1
     strapi-plugin-passwordless: 4.0.8
-    strapi-plugin-plausible: 1.0.4
+    strapi-plugin-plausible: 1.0.5
     strapi-plugin-sitemap: 2.0.8
     strapi-plugin-vercel-deploy: 1.4.0
     strapi-plugin-wysiwsg-react-md-editor: 4.2.0
@@ -16630,12 +16630,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-plausible@npm:1.0.4":
-  version: 1.0.4
-  resolution: "strapi-plugin-plausible@npm:1.0.4"
+"strapi-plugin-plausible@npm:1.0.5":
+  version: 1.0.5
+  resolution: "strapi-plugin-plausible@npm:1.0.5"
   peerDependencies:
-    "@strapi/strapi": ^4.2.0
-  checksum: 09399b6f8edbe06d4783989e2aae996f6d30c68fa39c3b312e97b2eb52f21a0d9555a8e379f7ca423adfd7c80d7062d4410ebaa121e94ba1d669931d9e519259
+    "@strapi/strapi": ^4.5.4
+  checksum: a11edb49d5f407a1979c7cdaa3099abf22cb19724ff2a3933f604acf2f4240159c246509698956137b62aca08c9b62d051ed96d971e1897e5a01186457db9424
   languageName: node
   linkType: hard
 
@@ -17421,11 +17421,11 @@ __metadata:
 
 "typescript@patch:typescript@^4.5.5#~builtin<compat/typescript>":
   version: 4.9.4
-  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"
+  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 37f6e2c3c5e2aa5934b85b0fddbf32eeac8b1bacf3a5b51d01946936d03f5377fe86255d4e5a4ae628fd0cd553386355ad362c57f13b4635064400f3e8e05b9d
+  checksum: 1caaea6cb7f813e64345190fddc4e6c924d0b698ab81189b503763c4a18f7f5501c69362979d36e19c042d89d936443e768a78b0675690b35eb663d19e0eae71
   languageName: node
   linkType: hard
 
