@@ -3633,7 +3633,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/plugin-graphql@npm:^4.4.7":
+"@strapi/plugin-graphql@npm:^4.5.4":
   version: 4.5.4
   resolution: "@strapi/plugin-graphql@npm:4.5.4"
   dependencies:
@@ -3845,7 +3845,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/utils@npm:4.5.4, @strapi/utils@npm:^4.0.0, @strapi/utils@npm:^4.4.7":
+"@strapi/utils@npm:4.5.4, @strapi/utils@npm:^4.0.0, @strapi/utils@npm:^4.5.4":
   version: 4.5.4
   resolution: "@strapi/utils@npm:4.5.4"
   dependencies:
@@ -4085,7 +4085,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/hoist-non-react-statics@npm:^3.3.0, @types/hoist-non-react-statics@npm:^3.3.1":
+"@types/hoist-non-react-statics@npm:*, @types/hoist-non-react-statics@npm:^3.3.0, @types/hoist-non-react-statics@npm:^3.3.1":
   version: 3.3.1
   resolution: "@types/hoist-non-react-statics@npm:3.3.1"
   dependencies:
@@ -4469,6 +4469,17 @@ __metadata:
   dependencies:
     "@types/node": "*"
   checksum: b9bbb2b5c5ead2fb884bb019f61a014e37410bddd295de28184e1b2e71ee6b04120c5ba7b9954617f0bdf962c13d06249ce65004490889c747c80d3f628ea842
+  languageName: node
+  linkType: hard
+
+"@types/styled-components@npm:^5.1.26":
+  version: 5.1.26
+  resolution: "@types/styled-components@npm:5.1.26"
+  dependencies:
+    "@types/hoist-non-react-statics": "*"
+    "@types/react": "*"
+    csstype: ^3.0.2
+  checksum: 84f53b3101739b20d1731554fb7735bc2f3f5d050a8b392e9845403c8c8bbd729737d033978649f9195a97b557875b010d46e35a4538564a2d0dbcce661dbf76
   languageName: node
   linkType: hard
 
@@ -5583,7 +5594,7 @@ __metadata:
     "@strapi/strapi": 4.5.4
     better-sqlite3: 8.0.1
     strapi-google-auth: 0.1.2
-    strapi-plugin-comments: 2.2.1
+    strapi-plugin-comments: 2.2.3
     strapi-plugin-config-sync: 1.1.0
     strapi-plugin-email-designer: 2.1.1
     strapi-plugin-notes: 1.0.1
@@ -16555,19 +16566,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-comments@npm:2.2.1":
-  version: 2.2.1
-  resolution: "strapi-plugin-comments@npm:2.2.1"
+"strapi-plugin-comments@npm:2.2.3":
+  version: 2.2.3
+  resolution: "strapi-plugin-comments@npm:2.2.3"
   dependencies:
-    "@strapi/plugin-graphql": ^4.4.7
-    "@strapi/utils": ^4.4.7
+    "@strapi/plugin-graphql": ^4.5.4
+    "@strapi/utils": ^4.5.4
     "@types/axios": ^0.14.0
     "@types/react-intl": ^3.0.0
     "@types/react-query": ^1.2.9
+    "@types/styled-components": ^5.1.26
     bad-words: ^3.0.4
+    styled-components: ^5.3.6
   peerDependencies:
     "@strapi/strapi": 4.x
-  checksum: 76b80e9f50fa37776b86aded351e22055784213d572a50765c916dff60489a6765caea06d3ecc75d9f7ef87f97f62b58104411d6d93556cc2ce740413d4cd352
+  checksum: eb8b0d0318791dfd7955ff23d7076632d9fe550ec45f8c7e1f7da72c257e86feea0e4cb85d1d11ccfd39ec6f78665dd69b05e387757bf14cc89fed88d9985f03
   languageName: node
   linkType: hard
 
@@ -16856,7 +16869,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:^5.3.3, styled-components@npm:^5.3.5":
+"styled-components@npm:^5.3.3, styled-components@npm:^5.3.5, styled-components@npm:^5.3.6":
   version: 5.3.6
   resolution: "styled-components@npm:5.3.6"
   dependencies:
