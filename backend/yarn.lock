@@ -3577,13 +3577,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/plugin-graphql@npm:^4.5.4":
-  version: 4.5.4
-  resolution: "@strapi/plugin-graphql@npm:4.5.4"
+"@strapi/plugin-graphql@npm:^4.5.5":
+  version: 4.5.5
+  resolution: "@strapi/plugin-graphql@npm:4.5.5"
   dependencies:
     "@graphql-tools/schema": 8.5.1
     "@graphql-tools/utils": ^8.12.0
-    "@strapi/utils": 4.5.4
+    "@strapi/utils": 4.5.5
     apollo-server-core: 3.1.2
     apollo-server-koa: 3.10.0
     glob: ^7.1.7
@@ -3599,7 +3599,7 @@ __metadata:
     subscriptions-transport-ws: 0.9.19
   peerDependencies:
     "@strapi/strapi": ^4.0.0
-  checksum: 73a3478d8f37c69839d1d9d1e2d9e40feea6599b6be193b6ea3a491b3be4a1b3845ccf836a2479fc697a69d8e51c0177b9a96d56660c4c5e4448acf49dc31cec
+  checksum: 2232786a04f17ca1001b1cc40b95adc2c95939431c247ab1b295faa13d5b765c20f3c480c281ad6394683bd947a3eba3d7d5bc645dc41882f934d9c61dfdd040
   languageName: node
   linkType: hard
 
@@ -3789,20 +3789,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/utils@npm:4.5.4, @strapi/utils@npm:^4.0.0, @strapi/utils@npm:^4.5.4":
-  version: 4.5.4
-  resolution: "@strapi/utils@npm:4.5.4"
-  dependencies:
-    "@sindresorhus/slugify": 1.1.0
-    date-fns: 2.29.2
-    http-errors: 1.8.1
-    lodash: 4.17.21
-    yup: 0.32.9
-  checksum: f4fb20d21208d607cfd71f8736807b3e00c0fe8f0fc325d069d98650a23bf61a792477c0a65e6d3c4a7b8bf8676ae0e3e4cd50481d63954fe1449a42b429b0dd
-  languageName: node
-  linkType: hard
-
-"@strapi/utils@npm:4.5.5":
+"@strapi/utils@npm:4.5.5, @strapi/utils@npm:^4.5.5":
   version: 4.5.5
   resolution: "@strapi/utils@npm:4.5.5"
   dependencies:
@@ -3812,6 +3799,19 @@ __metadata:
     lodash: 4.17.21
     yup: 0.32.9
   checksum: 025453f955579b5666ca640a4f39b7486e239ffcba08f324dfb07046d7c3b825a3f6d9fe58da7dac8349ab5ee903250b0dba2bdc0d581f5a2adc891341d86f90
+  languageName: node
+  linkType: hard
+
+"@strapi/utils@npm:^4.0.0":
+  version: 4.5.4
+  resolution: "@strapi/utils@npm:4.5.4"
+  dependencies:
+    "@sindresorhus/slugify": 1.1.0
+    date-fns: 2.29.2
+    http-errors: 1.8.1
+    lodash: 4.17.21
+    yup: 0.32.9
+  checksum: f4fb20d21208d607cfd71f8736807b3e00c0fe8f0fc325d069d98650a23bf61a792477c0a65e6d3c4a7b8bf8676ae0e3e4cd50481d63954fe1449a42b429b0dd
   languageName: node
   linkType: hard
 
@@ -5551,7 +5551,7 @@ __metadata:
     "@strapi/strapi": 4.5.5
     better-sqlite3: 8.0.1
     strapi-google-auth: 0.1.2
-    strapi-plugin-comments: 2.2.3
+    strapi-plugin-comments: 2.2.4
     strapi-plugin-config-sync: 1.1.0
     strapi-plugin-email-designer: 2.1.1
     strapi-plugin-notes: 1.0.1
@@ -16523,12 +16523,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-comments@npm:2.2.3":
-  version: 2.2.3
-  resolution: "strapi-plugin-comments@npm:2.2.3"
+"strapi-plugin-comments@npm:2.2.4":
+  version: 2.2.4
+  resolution: "strapi-plugin-comments@npm:2.2.4"
   dependencies:
-    "@strapi/plugin-graphql": ^4.5.4
-    "@strapi/utils": ^4.5.4
+    "@strapi/plugin-graphql": ^4.5.5
+    "@strapi/utils": ^4.5.5
     "@types/axios": ^0.14.0
     "@types/react-intl": ^3.0.0
     "@types/react-query": ^1.2.9
@@ -16537,7 +16537,7 @@ __metadata:
     styled-components: ^5.3.6
   peerDependencies:
     "@strapi/strapi": 4.x
-  checksum: eb8b0d0318791dfd7955ff23d7076632d9fe550ec45f8c7e1f7da72c257e86feea0e4cb85d1d11ccfd39ec6f78665dd69b05e387757bf14cc89fed88d9985f03
+  checksum: 5eabc3527033da01b6489b74d9f5b9aae0a7cd085624df90330090ff1851e2581643b4f8dd7a32df10e91b48de9b149f589a07cf949ddd31642f11dea5127464
   languageName: node
   linkType: hard
 
