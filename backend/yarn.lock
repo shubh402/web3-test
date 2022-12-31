@@ -5594,7 +5594,7 @@ __metadata:
     strapi-plugin-notes: 1.0.1
     strapi-plugin-passwordless: 4.0.8
     strapi-plugin-plausible: 1.0.5
-    strapi-plugin-sitemap: 2.0.8
+    strapi-plugin-sitemap: 2.0.9
     strapi-plugin-vercel-deploy: 1.4.0
     strapi-plugin-wysiwsg-react-md-editor: 4.2.0
   languageName: unknown
@@ -16619,9 +16619,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-sitemap@npm:2.0.8":
-  version: 2.0.8
-  resolution: "strapi-plugin-sitemap@npm:2.0.8"
+"strapi-plugin-sitemap@npm:2.0.9":
+  version: 2.0.9
+  resolution: "strapi-plugin-sitemap@npm:2.0.9"
   dependencies:
     immutable: ^3.8.2
     redux-immutable: ^4.0.0
@@ -16630,7 +16630,7 @@ __metadata:
     xml2js: ^0.4.23
   peerDependencies:
     "@strapi/strapi": ^4.0.0
-  checksum: 8ecf577e1a52c17e0c69d1fd6076f0fbfa45f089021bbc67ea388307b6aca7f036692dee40de79e86ae9314317f271bf327e6f2a321708850c020e666644c803
+  checksum: a25172778d05b03784300f19adaa9a007bc6d5f33e51231fcd22c770b953c372877e925bcd09fb102f33039909a34c45640ef6c92234abd7fa612972c5706cd0
   languageName: node
   linkType: hard
 
