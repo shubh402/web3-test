@@ -2976,9 +2976,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@offset-dev/strapi-calendar@npm:0.0.9":
-  version: 0.0.9
-  resolution: "@offset-dev/strapi-calendar@npm:0.0.9"
+"@offset-dev/strapi-calendar@npm:0.0.10":
+  version: 0.0.10
+  resolution: "@offset-dev/strapi-calendar@npm:0.0.10"
   dependencies:
     "@devexpress/dx-react-core": ^3.0.3
     "@devexpress/dx-react-scheduler": ^3.0.3
@@ -2992,9 +2992,10 @@ __metadata:
     "@mui/x-date-pickers": ^5.0.0-beta.6
     moment: ^2.29.3
     react-color: ^2.19.3
+    validate-color: ^2.2.1
   peerDependencies:
     "@strapi/strapi": ^4.0.0
-  checksum: af47f58b9bb8e2ec9ca1263d450b21b1c24bb4e990efd0f1c68277ca92cd6070d8267779f8faba713f832986896265ce1ce6cb3e53df2b27d5a0232be6fdb57d
+  checksum: 8270500cc61664b71bc025c511af10c8ea0e837e34df608e100e061d05e4afd7c9c24987964eb1ceeedc6d9b8182b545c84781e2158b07e407f7efa16e8b4161
   languageName: node
   linkType: hard
 
@@ -5577,7 +5578,7 @@ __metadata:
     "@exfabrica/strapi-plugin-awesome-seo": 1.0.0-beta.1.1
     "@localazy/strapi-plugin": 0.1.12
     "@notum-cz/strapi-plugin-content-versioning": 0.4.7
-    "@offset-dev/strapi-calendar": 0.0.9
+    "@offset-dev/strapi-calendar": 0.0.10
     "@strapi-newsletter/strapi": 0.1.2
     "@strapi/plugin-documentation": 4.5.5
     "@strapi/plugin-i18n": 4.5.5
@@ -17781,6 +17782,13 @@ __metadata:
   dependencies:
     user-home: ^1.1.1
   checksum: 4ec2561efc3c4776bcb6eb2998465f0c85836083d17db6c7ecec83b223ab3efe2978cd8add905ac79de8f6179b25eb6620ed3cf154f4310c1cce62337fc0cc0e
+  languageName: node
+  linkType: hard
+
+"validate-color@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "validate-color@npm:2.2.1"
+  checksum: 567b3b4c788b26013c6ecf2eb02ac92454262efa0608aec1df03d2ea81f71190e8d46c11a29fdf18eea1fd6c20ccd81b244cfd74d39c22bc2455c9d6acb5d7da
   languageName: node
   linkType: hard
 
