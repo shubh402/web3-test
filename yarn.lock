@@ -2671,9 +2671,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hardhat@npm:2.12.5":
-  version: 2.12.5
-  resolution: "hardhat@npm:2.12.5"
+"hardhat@npm:2.12.6":
+  version: 2.12.6
+  resolution: "hardhat@npm:2.12.6"
   dependencies:
     "@ethersproject/abi": ^5.1.2
     "@metamask/eth-sig-util": ^4.0.0
@@ -2722,7 +2722,7 @@ __metadata:
     source-map-support: ^0.5.13
     stacktrace-parser: ^0.1.10
     tsort: 0.0.1
-    undici: ^5.4.0
+    undici: ^5.14.0
     uuid: ^8.3.2
     ws: ^7.4.6
   peerDependencies:
@@ -2735,7 +2735,7 @@ __metadata:
       optional: true
   bin:
     hardhat: internal/cli/cli.js
-  checksum: 01afb4db4dd78068c7cfa95826297f727c1fc952cfaa4aea6b8235a1de051386c765c00c5fafb6377cac19df08944718d151aced4687e47c7d79bae0121a29a4
+  checksum: c97c5ed2336541e8b0a3034dc5c94319cffbf93fa1b6385091858f8eefb392129c6109cbaca0837fd4dff4d627b3e3ccb931706257a5d0bee71fc7f7fe90a536
   languageName: node
   linkType: hard
 
@@ -4989,7 +4989,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:5.14.0, undici@npm:^5.4.0":
+"undici@npm:5.14.0, undici@npm:^5.14.0":
   version: 5.14.0
   resolution: "undici@npm:5.14.0"
   dependencies:
@@ -5099,7 +5099,7 @@ __metadata:
     eslint: 8.31.0
     eslint-config-prettier: 8.6.0
     eslint-plugin-svelte3: 4.0.0
-    hardhat: 2.12.5
+    hardhat: 2.12.6
     postcss: 8.4.21
     postcss-load-config: 4.0.1
     prettier: 2.8.2
