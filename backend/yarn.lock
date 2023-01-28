@@ -14,9 +14,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@_sh/strapi-plugin-ckeditor@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@_sh/strapi-plugin-ckeditor@npm:2.0.0"
+"@_sh/strapi-plugin-ckeditor@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@_sh/strapi-plugin-ckeditor@npm:2.0.1"
   dependencies:
     "@_sh/ckeditor5-font-with-picker": ^0.0.1
     "@ckeditor/ckeditor5-alignment": ^36.0.0
@@ -58,7 +58,7 @@ __metadata:
     sanitize-html: ^2.8.1
   peerDependencies:
     "@strapi/strapi": ^4.4.0
-  checksum: db3481cffd518dfbdc5c66b2ff218241940a593c3c08e4ea77279e0ebc25f7010b7501c5d0d87463efb9eb93bd375dc6ff0a0053eca18a95e2f70ac81876ffb6
+  checksum: 454a29e7fbda9159a37552ccb6e6fffd0e07efaa3dcd631f8e399933ed8c6406368065e7d79d2197a82572fb77bb31a3751d7617724f4f32318590626292f17a
   languageName: node
   linkType: hard
 
@@ -6356,7 +6356,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "backend@workspace:."
   dependencies:
-    "@_sh/strapi-plugin-ckeditor": 2.0.0
+    "@_sh/strapi-plugin-ckeditor": 2.0.1
     "@exfabrica/strapi-plugin-awesome-seo": 1.0.0-beta.1.1
     "@localazy/strapi-plugin": 0.1.12
     "@notum-cz/strapi-plugin-content-versioning": 0.4.7
