@@ -10,7 +10,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@_sh/strapi-plugin-ckeditor": "2.0.1",
+    "@_sh/strapi-plugin-ckeditor": "2.0.2",
     "@exfabrica/strapi-plugin-awesome-seo": "1.0.0-beta.1.1",
     "@localazy/strapi-plugin": "0.1.12",
     "@notum-cz/strapi-plugin-content-versioning": "0.4.7",
