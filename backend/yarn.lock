@@ -14,9 +14,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@_sh/strapi-plugin-ckeditor@npm:2.0.2":
-  version: 2.0.2
-  resolution: "@_sh/strapi-plugin-ckeditor@npm:2.0.2"
+"@_sh/strapi-plugin-ckeditor@npm:2.0.3":
+  version: 2.0.3
+  resolution: "@_sh/strapi-plugin-ckeditor@npm:2.0.3"
   dependencies:
     "@_sh/ckeditor5-font-with-picker": ^0.0.1
     "@ckeditor/ckeditor5-alignment": ^36.0.0
@@ -58,7 +58,7 @@ __metadata:
     sanitize-html: ^2.8.1
   peerDependencies:
     "@strapi/strapi": ^4.4.0
-  checksum: 6e9a80f006747260a9e10f4eebd211615c6b1ad963842cc5cca111ccdab2c2d645f57efb4ac8f48d2b5d68f43c472135ae1dd6b4cba6d93f0ff9465e1f5f3b5c
+  checksum: 3d15fa19dd88b03ba3f183aa2185faee4d747b90658ed5c557c8b45dc096a2f5ecabff2c2083bb2dfbdaf4230b4be9755453a2a1b07788ae0df6327b4d0b24d2
   languageName: node
   linkType: hard
 
@@ -6356,7 +6356,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "backend@workspace:."
   dependencies:
-    "@_sh/strapi-plugin-ckeditor": 2.0.2
+    "@_sh/strapi-plugin-ckeditor": 2.0.3
     "@exfabrica/strapi-plugin-awesome-seo": 1.0.0-beta.1.1
     "@localazy/strapi-plugin": 0.1.12
     "@notum-cz/strapi-plugin-content-versioning": 0.4.7
@@ -18093,11 +18093,11 @@ __metadata:
 
 "typescript@patch:typescript@^4.5.5#~builtin<compat/typescript>":
   version: 4.9.4
-  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"
+  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=23ec76"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 1caaea6cb7f813e64345190fddc4e6c924d0b698ab81189b503763c4a18f7f5501c69362979d36e19c042d89d936443e768a78b0675690b35eb663d19e0eae71
+  checksum: 3e2ab0772908676d9b9cb83398c70003a3b08e1c6b3b122409df9f4b520f2fdaefa20c3d7d57dce283fed760ac94b3ce94d4a7fa875127b67852904425a1f0dc
   languageName: node
   linkType: hard
 
