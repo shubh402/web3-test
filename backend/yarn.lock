@@ -6358,7 +6358,7 @@ __metadata:
     "@strapi/strapi": 4.6.1
     better-sqlite3: 8.1.0
     strapi-google-auth: 0.1.2
-    strapi-plugin-comments: 2.2.5
+    strapi-plugin-comments: 2.2.6
     strapi-plugin-config-sync: 1.1.0
     strapi-plugin-email-designer: 2.1.2
     strapi-plugin-notes: 1.0.1
@@ -17148,9 +17148,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-comments@npm:2.2.5":
-  version: 2.2.5
-  resolution: "strapi-plugin-comments@npm:2.2.5"
+"strapi-plugin-comments@npm:2.2.6":
+  version: 2.2.6
+  resolution: "strapi-plugin-comments@npm:2.2.6"
   dependencies:
     "@strapi/plugin-graphql": ^4.6.0
     "@strapi/utils": ^4.6.0
@@ -17162,7 +17162,7 @@ __metadata:
     styled-components: ^5.3.6
   peerDependencies:
     "@strapi/strapi": 4.x
-  checksum: de9102bc980f50f255e1a85fa678fa56eaf534c48ccd27de27863b6acfceda4e8145c20c536617f953e996c08a5d3843240225d8970348f11a25ce3afd001233
+  checksum: 18ec187183a0f343c5ca6cebd915187885b580565c0a847aad95f382eacbdbb968cb6def03e96d11f30c781c20b3e81621d3ef4d20e0945e1302340a4d94bab6
   languageName: node
   linkType: hard
 
