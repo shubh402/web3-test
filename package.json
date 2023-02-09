@@ -24,7 +24,7 @@
 		"eslint": "8.33.0",
 		"eslint-config-prettier": "8.6.0",
 		"eslint-plugin-svelte3": "4.0.0",
-		"hardhat": "2.12.6",
+		"hardhat": "2.12.7",
 		"postcss": "8.4.21",
 		"postcss-load-config": "4.0.1",
 		"prettier": "2.8.4",
