@@ -6359,7 +6359,7 @@ __metadata:
     better-sqlite3: 8.1.0
     strapi-google-auth: 0.1.2
     strapi-plugin-comments: 2.2.6
-    strapi-plugin-config-sync: 1.1.0
+    strapi-plugin-config-sync: 1.1.1
     strapi-plugin-email-designer: 2.1.2
     strapi-plugin-notes: 1.0.1
     strapi-plugin-passwordless: 4.0.8
@@ -17166,9 +17166,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-config-sync@npm:1.1.0":
-  version: 1.1.0
-  resolution: "strapi-plugin-config-sync@npm:1.1.0"
+"strapi-plugin-config-sync@npm:1.1.1":
+  version: 1.1.1
+  resolution: "strapi-plugin-config-sync@npm:1.1.1"
   dependencies:
     chalk: ^4.1.2
     cli-table: ^0.3.6
@@ -17182,8 +17182,8 @@ __metadata:
   peerDependencies:
     "@strapi/strapi": ^4.0.0
   bin:
-    config-sync: ./bin/config-sync
-  checksum: 42350f034bf17fd7a84bbdd9c2e8d95365e98dbec4783d8b04ffea49cc08c3e16e89bb92eec3282d030321b0ec151778ec6171b3d3d7d0bb3d2fc920468510ba
+    config-sync: bin/config-sync
+  checksum: 39b7ffc39c9e02fc0ae4d6d3a1a2ad179277ba1705a3919b061c7fea9d99e3af05aaabf515aba631e82f76b7daf72c4c82e667fc27b45e37ca3440cb41e1197b
   languageName: node
   linkType: hard
 
