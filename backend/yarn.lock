@@ -4418,13 +4418,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/plugin-graphql@npm:^4.6.0":
-  version: 4.6.2
-  resolution: "@strapi/plugin-graphql@npm:4.6.2"
+"@strapi/plugin-graphql@npm:^4.7.1":
+  version: 4.7.1
+  resolution: "@strapi/plugin-graphql@npm:4.7.1"
   dependencies:
     "@graphql-tools/schema": 8.5.1
     "@graphql-tools/utils": ^8.12.0
-    "@strapi/utils": 4.6.2
+    "@strapi/utils": 4.7.1
     apollo-server-core: 3.11.1
     apollo-server-koa: 3.10.0
     glob: ^7.1.7
@@ -4440,7 +4440,7 @@ __metadata:
     subscriptions-transport-ws: 0.9.19
   peerDependencies:
     "@strapi/strapi": ^4.0.0
-  checksum: 221bd6c6bc974fca2d6214174e5df4400c9226cf8342dfad703e2dc1730ac90cb01999e4ad9c77938416fcdfadb98e3c987b4ea86c243a6a77304ded35311e0e
+  checksum: 75869444bf3af502cf9314888221b0a9fcd1bc6be9b92994dd7ca4f45d41484ed9bbf8305914605c2aa0be07b993e19a005be347a322cfece8757968218543a5
   languageName: node
   linkType: hard
 
@@ -4639,21 +4639,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/utils@npm:4.6.2, @strapi/utils@npm:^4.0.0, @strapi/utils@npm:^4.6.0":
-  version: 4.6.2
-  resolution: "@strapi/utils@npm:4.6.2"
-  dependencies:
-    "@sindresorhus/slugify": 1.1.0
-    date-fns: 2.29.3
-    http-errors: 1.8.1
-    lodash: 4.17.21
-    p-map: 4.0.0
-    yup: 0.32.9
-  checksum: 0c4abbe84bbe8d0b588c77ff49824248e70b1649713eb439d2ab85330e6e5bcec90c4092000901974a968abb408dcdead1f0429c0ad503a02b609d2729f5d982
-  languageName: node
-  linkType: hard
-
-"@strapi/utils@npm:4.7.1":
+"@strapi/utils@npm:4.7.1, @strapi/utils@npm:^4.7.1":
   version: 4.7.1
   resolution: "@strapi/utils@npm:4.7.1"
   dependencies:
@@ -4664,6 +4650,20 @@ __metadata:
     p-map: 4.0.0
     yup: 0.32.9
   checksum: cb6e6b9cac58a68b9b9986ba7136828527ed1a3f2e850baa02628b341d58d9fc5ffa0c64021c2fbb0da76c9ed936cac1f7f117ff1a1da8b98223e1aac4be2685
+  languageName: node
+  linkType: hard
+
+"@strapi/utils@npm:^4.0.0":
+  version: 4.6.2
+  resolution: "@strapi/utils@npm:4.6.2"
+  dependencies:
+    "@sindresorhus/slugify": 1.1.0
+    date-fns: 2.29.3
+    http-errors: 1.8.1
+    lodash: 4.17.21
+    p-map: 4.0.0
+    yup: 0.32.9
+  checksum: 0c4abbe84bbe8d0b588c77ff49824248e70b1649713eb439d2ab85330e6e5bcec90c4092000901974a968abb408dcdead1f0429c0ad503a02b609d2729f5d982
   languageName: node
   linkType: hard
 
@@ -6274,7 +6274,7 @@ __metadata:
     "@strapi/strapi": 4.7.1
     better-sqlite3: 8.1.0
     strapi-google-auth: 0.1.2
-    strapi-plugin-comments: 2.2.6
+    strapi-plugin-comments: 2.2.7
     strapi-plugin-config-sync: 1.1.1
     strapi-plugin-email-designer: 2.1.2
     strapi-plugin-notes: 1.0.1
@@ -16345,21 +16345,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-comments@npm:2.2.6":
-  version: 2.2.6
-  resolution: "strapi-plugin-comments@npm:2.2.6"
+"strapi-plugin-comments@npm:2.2.7":
+  version: 2.2.7
+  resolution: "strapi-plugin-comments@npm:2.2.7"
   dependencies:
-    "@strapi/plugin-graphql": ^4.6.0
-    "@strapi/utils": ^4.6.0
+    "@strapi/plugin-graphql": ^4.7.1
+    "@strapi/utils": ^4.7.1
     "@types/axios": ^0.14.0
     "@types/react-intl": ^3.0.0
     "@types/react-query": ^1.2.9
     "@types/styled-components": ^5.1.26
     bad-words: ^3.0.4
-    styled-components: ^5.3.6
+    styled-components: ^5.3.8
   peerDependencies:
-    "@strapi/strapi": 4.x
-  checksum: 18ec187183a0f343c5ca6cebd915187885b580565c0a847aad95f382eacbdbb968cb6def03e96d11f30c781c20b3e81621d3ef4d20e0945e1302340a4d94bab6
+    "@strapi/strapi": ^4.0.0
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-router-dom: 5.3.4
+    styled-components: 5.3.3
+  checksum: 24e518e35188f41a579e2c13fdcb5c9a1a436775c5e6f1cb8e5c8e39c299ba53e2fe809ab87421eab139bbd424c8870c709052be6ed4268037c52db974602db1
   languageName: node
   linkType: hard
 
@@ -16643,7 +16647,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:^5.3.3, styled-components@npm:^5.3.5, styled-components@npm:^5.3.6":
+"styled-components@npm:^5.3.3, styled-components@npm:^5.3.5":
   version: 5.3.6
   resolution: "styled-components@npm:5.3.6"
   dependencies:
@@ -16662,6 +16666,28 @@ __metadata:
     react-dom: ">= 16.8.0"
     react-is: ">= 16.8.0"
   checksum: 68eac1e451be81d66739cf86de8ec9e72f46e7584aa359271761a2437468210bd7cf0a864281fc97dab08c32b35e6bf7513dc8b4104ed6b196cf8d65674dd289
+  languageName: node
+  linkType: hard
+
+"styled-components@npm:^5.3.8":
+  version: 5.3.8
+  resolution: "styled-components@npm:5.3.8"
+  dependencies:
+    "@babel/helper-module-imports": ^7.0.0
+    "@babel/traverse": ^7.4.5
+    "@emotion/is-prop-valid": ^1.1.0
+    "@emotion/stylis": ^0.8.4
+    "@emotion/unitless": ^0.7.4
+    babel-plugin-styled-components: ">= 1.12.0"
+    css-to-react-native: ^3.0.0
+    hoist-non-react-statics: ^3.0.0
+    shallowequal: ^1.1.0
+    supports-color: ^5.5.0
+  peerDependencies:
+    react: ">= 16.8.0"
+    react-dom: ">= 16.8.0"
+    react-is: ">= 16.8.0"
+  checksum: 60148083f4057cd0dd4ad555e82800ec4ec4b8822fd81645f084e9beebf91420f4c9c75875b44933755d32ec97c46be6b79ca0c23578e5a731e3399e6ea0d901
   languageName: node
   linkType: hard
 
