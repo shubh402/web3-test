@@ -4418,7 +4418,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/plugin-graphql@npm:^4.6.0":
+"@strapi/plugin-graphql@npm:^4.7.1":
   version: 4.7.1
   resolution: "@strapi/plugin-graphql@npm:4.7.1"
   dependencies:
@@ -4639,7 +4639,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/utils@npm:4.7.1, @strapi/utils@npm:^4.6.0":
+"@strapi/utils@npm:4.7.1, @strapi/utils@npm:^4.7.1":
   version: 4.7.1
   resolution: "@strapi/utils@npm:4.7.1"
   dependencies:
@@ -6274,7 +6274,7 @@ __metadata:
     "@strapi/strapi": 4.7.1
     better-sqlite3: 8.1.0
     strapi-google-auth: 0.1.2
-    strapi-plugin-comments: 2.2.6
+    strapi-plugin-comments: 2.2.8
     strapi-plugin-config-sync: 1.1.1
     strapi-plugin-email-designer: 2.1.2
     strapi-plugin-notes: 1.0.1
@@ -16345,21 +16345,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-comments@npm:2.2.6":
-  version: 2.2.6
-  resolution: "strapi-plugin-comments@npm:2.2.6"
+"strapi-plugin-comments@npm:2.2.8":
+  version: 2.2.8
+  resolution: "strapi-plugin-comments@npm:2.2.8"
   dependencies:
-    "@strapi/plugin-graphql": ^4.6.0
-    "@strapi/utils": ^4.6.0
+    "@strapi/plugin-graphql": ^4.7.1
+    "@strapi/utils": ^4.7.1
     "@types/axios": ^0.14.0
     "@types/react-intl": ^3.0.0
     "@types/react-query": ^1.2.9
     "@types/styled-components": ^5.1.26
     bad-words: ^3.0.4
-    styled-components: ^5.3.6
+    match-sorter: ^4.0.2
+    styled-components: ^5.3.8
   peerDependencies:
-    "@strapi/strapi": 4.x
-  checksum: 18ec187183a0f343c5ca6cebd915187885b580565c0a847aad95f382eacbdbb968cb6def03e96d11f30c781c20b3e81621d3ef4d20e0945e1302340a4d94bab6
+    "@strapi/strapi": ^4.0.0
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-router-dom: 5.3.4
+    styled-components: 5.3.3
+  checksum: c5b8674f12921f1c3001316625aa36a1ef6eb9613fe477cbc937bfda16938aeec51a547529df72c0fef0836dd05d2c4bdb05190019ecf2fdbe461493b6b3a2bd
   languageName: node
   linkType: hard
 
@@ -16665,7 +16670,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:^5.3.6":
+"styled-components@npm:^5.3.8":
   version: 5.3.8
   resolution: "styled-components@npm:5.3.8"
   dependencies:
