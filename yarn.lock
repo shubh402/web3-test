@@ -4864,10 +4864,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:3.55.1":
-  version: 3.55.1
-  resolution: "svelte@npm:3.55.1"
-  checksum: ce66391bae68b2055a0a63ee0477e73f036247d4dd5abd5240372d5f4971a452ad29c4ef2c630ab089697429edd61756ef7b764e7597ad7e897ce9f8a9457fec
+"svelte@npm:3.57.0":
+  version: 3.57.0
+  resolution: "svelte@npm:3.57.0"
+  checksum: ae8e807c583935c5adb4e921789ab1339a5c7af5102388a7101d3258dc4af7dbe6579358d423e10622177d78ad9218f654ae98234150e5abe084ad26b4d7e319
   languageName: node
   linkType: hard
 
@@ -5190,7 +5190,7 @@ __metadata:
     postcss-load-config: 4.0.1
     prettier: 2.8.4
     prettier-plugin-svelte: 2.9.0
-    svelte: 3.55.1
+    svelte: 3.57.0
     svelte-check: 3.1.4
     svelte-preprocess: 5.0.2
     tailwindcss: 3.2.7
