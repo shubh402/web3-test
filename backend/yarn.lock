@@ -6327,7 +6327,7 @@ __metadata:
     strapi-plugin-config-sync: 1.1.1
     strapi-plugin-email-designer: 2.1.2
     strapi-plugin-notes: 1.0.1
-    strapi-plugin-passwordless: 4.0.8
+    strapi-plugin-passwordless: 4.0.9
     strapi-plugin-plausible: 1.0.5
     strapi-plugin-sitemap: 2.0.9
     strapi-plugin-vercel-deploy: 1.4.0
@@ -16404,14 +16404,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-passwordless@npm:4.0.8":
-  version: 4.0.8
-  resolution: "strapi-plugin-passwordless@npm:4.0.8"
+"strapi-plugin-passwordless@npm:4.0.9":
+  version: 4.0.9
+  resolution: "strapi-plugin-passwordless@npm:4.0.9"
   dependencies:
     nanoid: ^3.3.4
   peerDependencies:
     "@strapi/strapi": ^4.x
-  checksum: 7260ae5ec7699a31d85f5b9e91fe15348422aaab1bd863a7c6904334acf1c0c467691adf0a3a310d37b238b91d196c39e932626f903885861f48872873345382
+  checksum: 9627cc3e8ebd4082fd7f6146ed9231ff33ffb8211ed37750d3a1d3ba1f0e3861519c47801d3decbaee5d823b642d3a4c82e34a8d35f9553850dd24984055f989
   languageName: node
   linkType: hard
 
