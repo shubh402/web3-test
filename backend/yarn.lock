@@ -6384,7 +6384,7 @@ __metadata:
     strapi-plugin-email-designer: 2.1.2
     strapi-plugin-notes: 1.0.1
     strapi-plugin-passwordless: 4.0.9
-    strapi-plugin-plausible: 1.0.5
+    strapi-plugin-plausible: 1.0.6
     strapi-plugin-sitemap: 2.0.9
     strapi-plugin-vercel-deploy: 1.4.0
     strapi-plugin-wysiwsg-react-md-editor: 4.2.0
@@ -16446,12 +16446,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-plausible@npm:1.0.5":
-  version: 1.0.5
-  resolution: "strapi-plugin-plausible@npm:1.0.5"
+"strapi-plugin-plausible@npm:1.0.6":
+  version: 1.0.6
+  resolution: "strapi-plugin-plausible@npm:1.0.6"
   peerDependencies:
-    "@strapi/strapi": ^4.5.4
-  checksum: a11edb49d5f407a1979c7cdaa3099abf22cb19724ff2a3933f604acf2f4240159c246509698956137b62aca08c9b62d051ed96d971e1897e5a01186457db9424
+    "@strapi/strapi": ^4.9.0
+  checksum: 2682189e8464c65f3be681e687489c57aad965d45a36d41a8fb751d4f2faf176a2fb8248a207fecd6c274cd27c56543ef0335d7e3b58fbb00276738a157fba8d
   languageName: node
   linkType: hard
 
