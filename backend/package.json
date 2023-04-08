@@ -28,7 +28,7 @@
     "strapi-plugin-email-designer": "2.1.2",
     "strapi-plugin-notes": "1.0.1",
     "strapi-plugin-passwordless": "4.0.9",
-    "strapi-plugin-plausible": "1.0.5",
+    "strapi-plugin-plausible": "1.0.6",
     "strapi-plugin-sitemap": "2.0.9",
     "strapi-plugin-vercel-deploy": "1.4.0",
     "strapi-plugin-wysiwsg-react-md-editor": "4.2.0"
