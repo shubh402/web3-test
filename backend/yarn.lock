@@ -4531,7 +4531,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/plugin-graphql@npm:^4.8.2":
+"@strapi/plugin-graphql@npm:^4.9.2":
   version: 4.9.2
   resolution: "@strapi/plugin-graphql@npm:4.9.2"
   dependencies:
@@ -4797,7 +4797,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/utils@npm:4.9.2, @strapi/utils@npm:^4.0.0, @strapi/utils@npm:^4.8.2":
+"@strapi/utils@npm:4.9.2, @strapi/utils@npm:^4.0.0, @strapi/utils@npm:^4.9.2":
   version: 4.9.2
   resolution: "@strapi/utils@npm:4.9.2"
   dependencies:
@@ -6445,7 +6445,7 @@ __metadata:
     "@strapi/strapi": 4.9.2
     better-sqlite3: 8.3.0
     strapi-google-auth: 0.1.2
-    strapi-plugin-comments: 2.2.9
+    strapi-plugin-comments: 2.2.10
     strapi-plugin-config-sync: 1.1.1
     strapi-plugin-email-designer: 2.1.2
     strapi-plugin-notes: 1.0.1
@@ -16478,12 +16478,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-comments@npm:2.2.9":
-  version: 2.2.9
-  resolution: "strapi-plugin-comments@npm:2.2.9"
+"strapi-plugin-comments@npm:2.2.10":
+  version: 2.2.10
+  resolution: "strapi-plugin-comments@npm:2.2.10"
   dependencies:
-    "@strapi/plugin-graphql": ^4.8.2
-    "@strapi/utils": ^4.8.2
+    "@strapi/plugin-graphql": ^4.9.2
+    "@strapi/utils": ^4.9.2
     "@types/axios": ^0.14.0
     "@types/react-intl": ^3.0.0
     "@types/react-query": ^1.2.9
@@ -16498,7 +16498,7 @@ __metadata:
     react-dom: ^17.0.2
     react-router-dom: 5.3.4
     styled-components: 5.3.3
-  checksum: 129e4f779136886e28f3445008e7f98209c2aab2be2538fecd89471edc6574e704615c29281da3a8afc9c23e3cca4c5329080a5efb78087b523d04b34cf17203
+  checksum: 0f3e5872a2ead42e2323713e8a1fd1bc8541448e68b2e211b7d6c7657dc64424991c504794071750e012d40344fb644d68f05b4c8e276f1c859b945da08a9bb6
   languageName: node
   linkType: hard
 
