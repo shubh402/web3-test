@@ -6485,7 +6485,7 @@ __metadata:
     "@strapi/plugin-users-permissions": 4.10.1
     "@strapi/strapi": 4.10.1
     better-sqlite3: 8.3.0
-    strapi-google-auth: 0.1.2
+    strapi-google-auth: 0.2.1
     strapi-plugin-comments: 2.2.10
     strapi-plugin-config-sync: 1.1.1
     strapi-plugin-email-designer: 2.1.2
@@ -16507,15 +16507,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-google-auth@npm:0.1.2":
-  version: 0.1.2
-  resolution: "strapi-google-auth@npm:0.1.2"
+"strapi-google-auth@npm:0.2.1":
+  version: 0.2.1
+  resolution: "strapi-google-auth@npm:0.2.1"
   dependencies:
     google-auth-library: ^8.0.2
     googleapis: ^100.0.0
   peerDependencies:
     "@strapi/strapi": ^4.1
-  checksum: f10c298e7882a6961e8bc81ae618a3653484dafa75b82fdecd0934863f8de1e0de51be820e8dd942a6b187229002a14473062a3b091d6546d4492f63117a38bc
+  checksum: 86506edc83b115325e5a4c36f42cc2307487619db547b9b5bfe0cc4a08d45f76bef9c9cdd193af6cab0d980ca4b4fa90394f69bf5eb4f9fb4752d0bb60432d4f
   languageName: node
   linkType: hard
 
