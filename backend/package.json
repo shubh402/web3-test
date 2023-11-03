@@ -20,7 +20,7 @@
     "@strapi/plugin-i18n": "4.10.1",
     "@strapi/plugin-seo": "1.8.0",
     "@strapi/plugin-users-permissions": "4.10.1",
-    "@strapi/strapi": "4.10.1",
+    "@strapi/strapi": "4.13.1",
     "better-sqlite3": "8.3.0",
     "strapi-google-auth": "0.1.2",
     "strapi-plugin-comments": "2.2.10",
