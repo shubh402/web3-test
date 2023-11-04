@@ -6487,7 +6487,7 @@ __metadata:
     better-sqlite3: 8.3.0
     strapi-google-auth: 0.1.2
     strapi-plugin-comments: 2.2.10
-    strapi-plugin-config-sync: 1.1.1
+    strapi-plugin-config-sync: 1.2.3
     strapi-plugin-email-designer: 2.1.2
     strapi-plugin-notes: 1.0.1
     strapi-plugin-passwordless: 4.0.9
@@ -14653,7 +14653,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-diff-viewer-continued@npm:^3.2.3":
+"react-diff-viewer-continued@npm:3.2.6":
   version: 3.2.6
   resolution: "react-diff-viewer-continued@npm:3.2.6"
   dependencies:
@@ -16543,9 +16543,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-config-sync@npm:1.1.1":
-  version: 1.1.1
-  resolution: "strapi-plugin-config-sync@npm:1.1.1"
+"strapi-plugin-config-sync@npm:1.2.3":
+  version: 1.2.3
+  resolution: "strapi-plugin-config-sync@npm:1.2.3"
   dependencies:
     chalk: ^4.1.2
     cli-table: ^0.3.6
@@ -16553,14 +16553,14 @@ __metadata:
     git-diff: ^2.0.6
     immutable: ^3.8.2
     inquirer: ^8.2.0
-    react-diff-viewer-continued: ^3.2.3
+    react-diff-viewer-continued: 3.2.6
     redux-immutable: ^4.0.0
     redux-thunk: ^2.3.0
   peerDependencies:
     "@strapi/strapi": ^4.0.0
   bin:
     config-sync: bin/config-sync
-  checksum: 39b7ffc39c9e02fc0ae4d6d3a1a2ad179277ba1705a3919b061c7fea9d99e3af05aaabf515aba631e82f76b7daf72c4c82e667fc27b45e37ca3440cb41e1197b
+  checksum: 13fa24e066397c2130d1b33b1167db5cab39a542579d12343dcbb93406ce6cbf48aefe803a68fd9845aca1dad850d2866a388a8bdbd6f151ec10d6c2524fe612
   languageName: node
   linkType: hard
 
