@@ -3109,28 +3109,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fortawesome/fontawesome-common-types@npm:6.4.0":
-  version: 6.4.0
-  resolution: "@fortawesome/fontawesome-common-types@npm:6.4.0"
-  checksum: a9b79136caa615352bd921cfe2710516321b402cd76c3f0ae68e579a7e3d7645c5a5c0ecd7516c0b207adeeffd1d2174978638d8c0d3c8c937d66fca4f2ff556
+"@fortawesome/fontawesome-common-types@npm:6.5.1":
+  version: 6.5.1
+  resolution: "@fortawesome/fontawesome-common-types@npm:6.5.1"
+  checksum: c597062de8903aae591b652aa03b9b7aaa66e8c71e5950dc34a8b2812851a7f4ad743fba7396bab87d787c5359bb121496769a165bd3399d039dc214434f6f0c
   languageName: node
   linkType: hard
 
-"@fortawesome/fontawesome-svg-core@npm:^6.2.1":
-  version: 6.4.0
-  resolution: "@fortawesome/fontawesome-svg-core@npm:6.4.0"
+"@fortawesome/fontawesome-svg-core@npm:^6.4.2":
+  version: 6.5.1
+  resolution: "@fortawesome/fontawesome-svg-core@npm:6.5.1"
   dependencies:
-    "@fortawesome/fontawesome-common-types": 6.4.0
-  checksum: 5d4e6c15f814f5ce29053b666d0c7d194dc8ba173d128a38cc5856403a09d4e817e54956d30ed8d48d621f2f5ebcc71756f4e8fe5c5a091c636fc728fcb2362b
+    "@fortawesome/fontawesome-common-types": 6.5.1
+  checksum: e17f995abe215d288163b2cd009f935c7f96bc896ab4ea7a75de72789d52a1275bd112eeb60cadd63bb20017a05ed765232157079bfb7efda7347a5614e04ce1
   languageName: node
   linkType: hard
 
-"@fortawesome/free-solid-svg-icons@npm:^6.2.1":
-  version: 6.4.0
-  resolution: "@fortawesome/free-solid-svg-icons@npm:6.4.0"
+"@fortawesome/free-solid-svg-icons@npm:^6.4.2":
+  version: 6.5.1
+  resolution: "@fortawesome/free-solid-svg-icons@npm:6.5.1"
   dependencies:
-    "@fortawesome/fontawesome-common-types": 6.4.0
-  checksum: efdd1688620be3d52aacaeac36c955571962e174ae981fc697b6e92fb0996b00166d02e7729a59ea93713a514e2c8d564ab1aa79c9653b4cfed0263e4874d070
+    "@fortawesome/fontawesome-common-types": 6.5.1
+  checksum: c544b8389bab4ab375d172feeb334d4a591bd7c594acdcc546b5197f2bcc80be22be119a03994dbe7f13d133c11b41c471b62c92dd318fbe0378202c43c09d7d
   languageName: node
   linkType: hard
 
@@ -6488,7 +6488,7 @@ __metadata:
     strapi-google-auth: 0.1.2
     strapi-plugin-comments: 2.2.10
     strapi-plugin-config-sync: 1.1.1
-    strapi-plugin-email-designer: 2.1.2
+    strapi-plugin-email-designer: 2.2.1
     strapi-plugin-notes: 1.0.1
     strapi-plugin-passwordless: 4.0.9
     strapi-plugin-plausible: 1.0.6
@@ -8048,10 +8048,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:^1.11.7":
-  version: 1.11.7
-  resolution: "dayjs@npm:1.11.7"
-  checksum: 5003a7c1dd9ed51385beb658231c3548700b82d3548c0cfbe549d85f2d08e90e972510282b7506941452c58d32136d6362f009c77ca55381a09c704e9f177ebb
+"dayjs@npm:^1.11.9":
+  version: 1.11.10
+  resolution: "dayjs@npm:1.11.10"
+  checksum: a6b5a3813b8884f5cd557e2e6b7fa569f4c5d0c97aca9558e38534af4f2d60daafd3ff8c2000fed3435cfcec9e805bcebd99f90130c6d1c5ef524084ced588c4
   languageName: node
   linkType: hard
 
@@ -10411,7 +10411,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-to-text@npm:^9.0.1":
+"html-to-text@npm:^9.0.5":
   version: 9.0.5
   resolution: "html-to-text@npm:9.0.5"
   dependencies:
@@ -14723,12 +14723,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-email-editor@npm:^1.6.3":
-  version: 1.7.8
-  resolution: "react-email-editor@npm:1.7.8"
+"react-email-editor@npm:^1.7.8":
+  version: 1.7.9
+  resolution: "react-email-editor@npm:1.7.9"
+  dependencies:
+    unlayer-types: latest
   peerDependencies:
     react: ">=15"
-  checksum: b8f8cfde423e340953b7382c34343e17166a8663c60d99e6547043e13482cebf553c348e8b1baa307c20415737be1ae2ab33e402a5b9b4134cb0c388830a0e37
+  checksum: dcfb18bf00769516d5b794e7eb9a8b4a59b654902d7539a38df8fba400226f02162fde3a741734f6ba8ab466ec9a78e3f2f3712c2b22e63e2d0513fd67ceabaf
   languageName: node
   linkType: hard
 
@@ -16564,24 +16566,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-email-designer@npm:2.1.2":
-  version: 2.1.2
-  resolution: "strapi-plugin-email-designer@npm:2.1.2"
+"strapi-plugin-email-designer@npm:2.2.1":
+  version: 2.2.1
+  resolution: "strapi-plugin-email-designer@npm:2.2.1"
   dependencies:
-    "@fortawesome/fontawesome-svg-core": ^6.2.1
-    "@fortawesome/free-solid-svg-icons": ^6.2.1
+    "@fortawesome/fontawesome-svg-core": ^6.4.2
+    "@fortawesome/free-solid-svg-icons": ^6.4.2
     "@fortawesome/react-fontawesome": ^0.2.0
-    dayjs: ^1.11.7
+    dayjs: ^1.11.9
     decode-html: ^2.0.0
-    html-to-text: ^9.0.1
+    html-to-text: ^9.0.5
     lodash: ^4.17.21
-    react-email-editor: ^1.6.3
+    mustache: ^4.2.0
+    react-email-editor: ^1.7.8
     react-github-btn: ^1.4.0
     react-syntax-highlighter: ^15.5.0
     striptags: ^3.2.0
   peerDependencies:
-    "@strapi/strapi": ^4.0.0
-  checksum: 2391346d4bdfac83854ed6cfeba12ce618e4d75aeea8b839aa0e9f95891a12a54f96e697d3542ffce3e6ad712ea470670ed70b6f54762fc7cc5c57ac30095c56
+    "@strapi/strapi": ^4.12.4
+  checksum: 041558337d39e82ce44d0da84073fa946bbf1e31fbc2c4bfbdcdc6b3a6f48609c4c8a12080c67f1a34526a29d5713f8515599a0291044618760c53ce9e5f5ef7
   languageName: node
   linkType: hard
 
@@ -17513,6 +17516,13 @@ __metadata:
   version: 2.0.0
   resolution: "universalify@npm:2.0.0"
   checksum: 2406a4edf4a8830aa6813278bab1f953a8e40f2f63a37873ffa9a3bc8f9745d06cc8e88f3572cb899b7e509013f7f6fcc3e37e8a6d914167a5381d8440518c44
+  languageName: node
+  linkType: hard
+
+"unlayer-types@npm:latest":
+  version: 1.5.40
+  resolution: "unlayer-types@npm:1.5.40"
+  checksum: 9a52c414f760863e277bebb697e5567d7aa037a3315ede87677bd7f44110e124ceb13d60b7fc55099992370dddf6d72408ac47d04fa4a59537c8dcb24372328d
   languageName: node
   linkType: hard
 
