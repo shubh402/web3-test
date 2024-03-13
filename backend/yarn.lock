@@ -6492,7 +6492,7 @@ __metadata:
     strapi-plugin-notes: 1.0.1
     strapi-plugin-passwordless: 4.0.9
     strapi-plugin-plausible: 1.0.6
-    strapi-plugin-sitemap: 2.0.9
+    strapi-plugin-sitemap: 3.1.0
     strapi-plugin-vercel-deploy: 1.4.0
     strapi-plugin-wysiwsg-react-md-editor: 4.2.0
   languageName: unknown
@@ -16614,18 +16614,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-sitemap@npm:2.0.9":
-  version: 2.0.9
-  resolution: "strapi-plugin-sitemap@npm:2.0.9"
+"strapi-plugin-sitemap@npm:3.1.0":
+  version: 3.1.0
+  resolution: "strapi-plugin-sitemap@npm:3.1.0"
   dependencies:
+    chalk: ^4.1.2
+    commander: ^8.3.0
     immutable: ^3.8.2
     redux-immutable: ^4.0.0
     redux-thunk: ^2.3.0
     sitemap: ^7.1.0
-    xml2js: ^0.4.23
+    xml2js: ^0.5.0
   peerDependencies:
     "@strapi/strapi": ^4.0.0
-  checksum: a25172778d05b03784300f19adaa9a007bc6d5f33e51231fcd22c770b953c372877e925bcd09fb102f33039909a34c45640ef6c92234abd7fa612972c5706cd0
+  bin:
+    strapi-sitemap: bin/strapi-sitemap
+  checksum: 431cc10e818d32a75487580df298f5bf6b61878e6d09cf70453e90bf55343ccf24e34085167bf42127e02b84d70c0f1fbeba542a5912235302b79d9394397575
   languageName: node
   linkType: hard
 
@@ -18190,13 +18194,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xml2js@npm:^0.4.23":
-  version: 0.4.23
-  resolution: "xml2js@npm:0.4.23"
+"xml2js@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "xml2js@npm:0.5.0"
   dependencies:
     sax: ">=0.6.0"
     xmlbuilder: ~11.0.0
-  checksum: ca0cf2dfbf6deeaae878a891c8fbc0db6fd04398087084edf143cdc83d0509ad0fe199b890f62f39c4415cf60268a27a6aed0d343f0658f8779bd7add690fa98
+  checksum: 1aa71d62e5bc2d89138e3929b9ea46459157727759cbc62ef99484b778641c0cd21fb637696c052d901a22f82d092a3e740a16b4ce218e81ac59b933535124ea
   languageName: node
   linkType: hard
 
