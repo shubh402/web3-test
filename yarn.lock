@@ -1549,13 +1549,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:10.4.14":
-  version: 10.4.14
-  resolution: "autoprefixer@npm:10.4.14"
+"autoprefixer@npm:10.4.19":
+  version: 10.4.19
+  resolution: "autoprefixer@npm:10.4.19"
   dependencies:
-    browserslist: ^4.21.5
-    caniuse-lite: ^1.0.30001464
-    fraction.js: ^4.2.0
+    browserslist: ^4.23.0
+    caniuse-lite: ^1.0.30001599
+    fraction.js: ^4.3.7
     normalize-range: ^0.1.2
     picocolors: ^1.0.0
     postcss-value-parser: ^4.2.0
@@ -1563,7 +1563,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: e9f18e664a4e4a54a8f4ec5f6b49ed228ec45afaa76efcae361c93721795dc5ab644f36d2fdfc0dea446b02a8067b9372f91542ea431994399e972781ed46d95
+  checksum: 3a4bc5bace05e057396dca2b306503efc175e90e8f2abf5472d3130b72da1d54d97c0ee05df21bf04fe66a7df93fd8c8ec0f1aca72a165f4701a02531abcbf11
   languageName: node
   linkType: hard
 
@@ -1700,17 +1700,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.21.5":
-  version: 4.21.5
-  resolution: "browserslist@npm:4.21.5"
+"browserslist@npm:^4.23.0":
+  version: 4.23.0
+  resolution: "browserslist@npm:4.23.0"
   dependencies:
-    caniuse-lite: ^1.0.30001449
-    electron-to-chromium: ^1.4.284
-    node-releases: ^2.0.8
-    update-browserslist-db: ^1.0.10
+    caniuse-lite: ^1.0.30001587
+    electron-to-chromium: ^1.4.668
+    node-releases: ^2.0.14
+    update-browserslist-db: ^1.0.13
   bin:
     browserslist: cli.js
-  checksum: 9755986b22e73a6a1497fd8797aedd88e04270be33ce66ed5d85a1c8a798292a65e222b0f251bafa1c2522261e237d73b08b58689d4920a607e5a53d56dc4706
+  checksum: 436f49e796782ca751ebab7edc010cfc9c29f68536f387666cd70ea22f7105563f04dd62c6ff89cb24cc3254d17cba385f979eeeb3484d43e012412ff7e75def
   languageName: node
   linkType: hard
 
@@ -1838,10 +1838,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001449, caniuse-lite@npm:^1.0.30001464":
-  version: 1.0.30001481
-  resolution: "caniuse-lite@npm:1.0.30001481"
-  checksum: 8200a043c191b4fd4fe0beda37a58fd61869c895ab93f87bdd0420e5927453f48434d716ce9da8552ff6c3ecc4dcd1366354cda3a134f3cc844af741574a7cab
+"caniuse-lite@npm:^1.0.30001587, caniuse-lite@npm:^1.0.30001599":
+  version: 1.0.30001599
+  resolution: "caniuse-lite@npm:1.0.30001599"
+  checksum: d7e619e2e723547b7311ba0ca5134d9cd55df548e93dbedcf8a6e4ec74c7db91969c4272fb1ab2fd94cddeac6a8176ebf05853eb06689d5e76bb97d979a214b0
   languageName: node
   linkType: hard
 
@@ -2208,10 +2208,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-to-chromium@npm:^1.4.284":
-  version: 1.4.369
-  resolution: "electron-to-chromium@npm:1.4.369"
-  checksum: de31f3c765e8ab7096da252fecd4cdf717bceb0a027aa29db26450822535f745b09cc9f1dbb27a9e8767ef3730d35cbe7269e030ccf4421c2e3e2435a966ea86
+"electron-to-chromium@npm:^1.4.668":
+  version: 1.4.713
+  resolution: "electron-to-chromium@npm:1.4.713"
+  checksum: cffeff470a73c47763463fdc8f58854544102b572afe417defca6f511fa88dbe7e0b1720f0e64cf0cf92053aa3b086f5de24899a68a12a346f6b9b74ff1c0768
   languageName: node
   linkType: hard
 
@@ -2708,10 +2708,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fraction.js@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "fraction.js@npm:4.2.0"
-  checksum: 8c76a6e21dedea87109d6171a0ac77afa14205794a565d71cb10d2925f629a3922da61bf45ea52dbc30bce4d8636dc0a27213a88cbd600eab047d82f9a3a94c5
+"fraction.js@npm:^4.3.7":
+  version: 4.3.7
+  resolution: "fraction.js@npm:4.3.7"
+  checksum: e1553ae3f08e3ba0e8c06e43a3ab20b319966dfb7ddb96fd9b5d0ee11a66571af7f993229c88ebbb0d4a816eb813a24ed48207b140d442a8f76f33763b8d1f3f
   languageName: node
   linkType: hard
 
@@ -3496,6 +3496,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lilconfig@npm:^3.0.0":
+  version: 3.1.1
+  resolution: "lilconfig@npm:3.1.1"
+  checksum: dc8a4f4afde3f0fac6bd36163cc4777a577a90759b8ef1d0d766b19ccf121f723aa79924f32af5b954f3965268215e046d0f237c41c76e5ef01d4e6d1208a15e
+  languageName: node
+  linkType: hard
+
 "lines-and-columns@npm:^1.1.6":
   version: 1.2.4
   resolution: "lines-and-columns@npm:1.2.4"
@@ -4007,10 +4014,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-releases@npm:^2.0.8":
-  version: 2.0.10
-  resolution: "node-releases@npm:2.0.10"
-  checksum: d784ecde25696a15d449c4433077f5cce620ed30a1656c4abf31282bfc691a70d9618bae6868d247a67914d1be5cc4fde22f65a05f4398cdfb92e0fc83cadfbc
+"node-releases@npm:^2.0.14":
+  version: 2.0.14
+  resolution: "node-releases@npm:2.0.14"
+  checksum: 59443a2f77acac854c42d321bf1b43dea0aef55cd544c6a686e9816a697300458d4e82239e2d794ea05f7bbbc8a94500332e2d3ac3f11f52e4b16cbe638b3c41
   languageName: node
   linkType: hard
 
@@ -4286,7 +4293,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-load-config@npm:4.0.1, postcss-load-config@npm:^4.0.1":
+"postcss-load-config@npm:4.0.2":
+  version: 4.0.2
+  resolution: "postcss-load-config@npm:4.0.2"
+  dependencies:
+    lilconfig: ^3.0.0
+    yaml: ^2.3.4
+  peerDependencies:
+    postcss: ">=8.0.9"
+    ts-node: ">=9.0.0"
+  peerDependenciesMeta:
+    postcss:
+      optional: true
+    ts-node:
+      optional: true
+  checksum: 7c27dd3801db4eae207a5116fed2db6b1ebb780b40c3dd62a3e57e087093a8e6a14ee17ada729fee903152d6ef4826c6339eb135bee6208e0f3140d7e8090185
+  languageName: node
+  linkType: hard
+
+"postcss-load-config@npm:^4.0.1":
   version: 4.0.1
   resolution: "postcss-load-config@npm:4.0.1"
   dependencies:
@@ -4350,13 +4375,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-svelte@npm:2.10.0":
-  version: 2.10.0
-  resolution: "prettier-plugin-svelte@npm:2.10.0"
+"prettier-plugin-svelte@npm:2.10.1":
+  version: 2.10.1
+  resolution: "prettier-plugin-svelte@npm:2.10.1"
   peerDependencies:
     prettier: ^1.16.4 || ^2.0.0
-    svelte: ^3.2.0
-  checksum: 0e7f3e05e864c99696d23a6dd482d40f9abc903bfe778af7a947041b13c662820afde8f62d9967b1b1b56792b69732fd454af17f8ffcdd0b018ca55c674cabb4
+    svelte: ^3.2.0 || ^4.0.0-next.0
+  checksum: 45f7993098d9f4be7b1c8f61ebce0161996bb6030dc4883ec3d6d9cff552f2cfb5da41ba20e01349709e793b83faaad2dfe81789cd7e17a610f0134df2743266
   languageName: node
   linkType: hard
 
@@ -5370,9 +5395,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"update-browserslist-db@npm:^1.0.10":
-  version: 1.0.11
-  resolution: "update-browserslist-db@npm:1.0.11"
+"update-browserslist-db@npm:^1.0.13":
+  version: 1.0.13
+  resolution: "update-browserslist-db@npm:1.0.13"
   dependencies:
     escalade: ^3.1.1
     picocolors: ^1.0.0
@@ -5380,7 +5405,7 @@ __metadata:
     browserslist: ">= 4.21.0"
   bin:
     update-browserslist-db: cli.js
-  checksum: b98327518f9a345c7cad5437afae4d2ae7d865f9779554baf2a200fdf4bac4969076b679b1115434bd6557376bdd37ca7583d0f9b8f8e302d7d4cc1e91b5f231
+  checksum: 1e47d80182ab6e4ad35396ad8b61008ae2a1330221175d0abd37689658bdb61af9b705bfc41057fd16682474d79944fb2d86767c5ed5ae34b6276b9bed353322
   languageName: node
   linkType: hard
 
@@ -5433,7 +5458,7 @@ __metadata:
     "@types/cookie": 0.5.1
     "@typescript-eslint/eslint-plugin": 5.59.1
     "@typescript-eslint/parser": 5.59.1
-    autoprefixer: 10.4.14
+    autoprefixer: 10.4.19
     code-oss-dev: 0.0.1-security
     cookie: 0.5.0
     eslint: 8.39.0
@@ -5441,9 +5466,9 @@ __metadata:
     eslint-plugin-svelte3: 4.0.0
     hardhat: 2.14.0
     postcss: 8.4.23
-    postcss-load-config: 4.0.1
+    postcss-load-config: 4.0.2
     prettier: 2.8.8
-    prettier-plugin-svelte: 2.10.0
+    prettier-plugin-svelte: 2.10.1
     svelte: 3.58.0
     svelte-check: 3.2.0
     svelte-preprocess: 5.0.3
@@ -5560,6 +5585,15 @@ __metadata:
   version: 2.2.1
   resolution: "yaml@npm:2.2.1"
   checksum: 84f68cbe462d5da4e7ded4a8bded949ffa912bc264472e5a684c3d45b22d8f73a3019963a32164023bdf3d83cfb6f5b58ff7b2b10ef5b717c630f40bd6369a23
+  languageName: node
+  linkType: hard
+
+"yaml@npm:^2.3.4":
+  version: 2.4.1
+  resolution: "yaml@npm:2.4.1"
+  bin:
+    yaml: bin.mjs
+  checksum: 4c391d07a5d5e935e058babb71026c9cdc9a6fd889e35dd91b53cfb0a12691b67c6c5c740858e71345fef18cd9c13c554a6dda9196f59820d769d94041badb0b
   languageName: node
   linkType: hard
 
