@@ -3818,16 +3818,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@notum-cz/strapi-plugin-content-versioning@npm:0.4.7":
-  version: 0.4.7
-  resolution: "@notum-cz/strapi-plugin-content-versioning@npm:0.4.7"
+"@notum-cz/strapi-plugin-content-versioning@npm:1.3.1":
+  version: 1.3.1
+  resolution: "@notum-cz/strapi-plugin-content-versioning@npm:1.3.1"
   dependencies:
-    "@strapi/utils": ^4.0.0
+    "@strapi/utils": ^4.20.5
     lodash: ^4.17.21
-    uuid: ^8.3.2
+    uuid: ^9.0.1
   peerDependencies:
-    "@strapi/strapi": ^4.0.0
-  checksum: 895b3b0bc2b5535b95de91b832209cd0eef629768f6c0b8bc461c850a4d1e8f0916649bf27f9128c4978414a0de4a0917efd94a1453ced1b0799a486db617e0e
+    "@strapi/strapi": ^4.6.2
+  checksum: 892b598a0b2073afdb4884a24037e5692af5a411bd539d60be723167d51695651895b06676eec69a2e56fcfe00f538b5706e5c2a651206947f87d160c67b7433
   languageName: node
   linkType: hard
 
@@ -4838,7 +4838,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/utils@npm:4.9.2, @strapi/utils@npm:^4.0.0, @strapi/utils@npm:^4.9.2":
+"@strapi/utils@npm:4.9.2, @strapi/utils@npm:^4.9.2":
   version: 4.9.2
   resolution: "@strapi/utils@npm:4.9.2"
   dependencies:
@@ -4849,6 +4849,20 @@ __metadata:
     p-map: 4.0.0
     yup: 0.32.9
   checksum: 9efef6bac1bfd200beab5b61926e633ad06d29eba6539669a36c48fb040614255dc959132afbafafdd7b5b618d7309dab7240243b3eab5385a11fc640942bd61
+  languageName: node
+  linkType: hard
+
+"@strapi/utils@npm:^4.20.5":
+  version: 4.21.0
+  resolution: "@strapi/utils@npm:4.21.0"
+  dependencies:
+    "@sindresorhus/slugify": 1.1.0
+    date-fns: 2.30.0
+    http-errors: 1.8.1
+    lodash: 4.17.21
+    p-map: 4.0.0
+    yup: 0.32.9
+  checksum: e57c11598bd455b0e708058056aeb0bf3fa332db5cae02d6ae1b3e73f83ca86611beff8bc22efe044be3619478b5cfdba3a5ae7732e9d9425ea130a057f4dc3a
   languageName: node
   linkType: hard
 
@@ -6476,7 +6490,7 @@ __metadata:
     "@_sh/strapi-plugin-ckeditor": 2.0.4
     "@exfabrica/strapi-plugin-awesome-seo": 1.0.0-beta.1.1
     "@localazy/strapi-plugin": 0.1.12
-    "@notum-cz/strapi-plugin-content-versioning": 0.4.7
+    "@notum-cz/strapi-plugin-content-versioning": 1.3.1
     "@offset-dev/strapi-calendar": 0.0.10
     "@strapi-newsletter/strapi": 0.1.2
     "@strapi/plugin-documentation": 4.10.1
@@ -8045,6 +8059,15 @@ __metadata:
   version: 2.29.3
   resolution: "date-fns@npm:2.29.3"
   checksum: e01cf5b62af04e05dfff921bb9c9933310ed0e1ae9a81eb8653452e64dc841acf7f6e01e1a5ae5644d0337e9a7f936175fd2cb6819dc122fdd9c5e86c56be484
+  languageName: node
+  linkType: hard
+
+"date-fns@npm:2.30.0":
+  version: 2.30.0
+  resolution: "date-fns@npm:2.30.0"
+  dependencies:
+    "@babel/runtime": ^7.21.0
+  checksum: f7be01523282e9bb06c0cd2693d34f245247a29098527d4420628966a2d9aad154bd0e90a6b1cf66d37adcb769cd108cf8a7bd49d76db0fb119af5cdd13644f4
   languageName: node
   linkType: hard
 
@@ -17676,6 +17699,15 @@ __metadata:
   bin:
     uuid: dist/bin/uuid
   checksum: 5575a8a75c13120e2f10e6ddc801b2c7ed7d8f3c8ac22c7ed0c7b2ba6383ec0abda88c905085d630e251719e0777045ae3236f04c812184b7c765f63a70e58df
+  languageName: node
+  linkType: hard
+
+"uuid@npm:^9.0.1":
+  version: 9.0.1
+  resolution: "uuid@npm:9.0.1"
+  bin:
+    uuid: dist/bin/uuid
+  checksum: 39931f6da74e307f51c0fb463dc2462807531dc80760a9bff1e35af4316131b4fc3203d16da60ae33f07fdca5b56f3f1dd662da0c99fea9aaeab2004780cc5f4
   languageName: node
   linkType: hard
 
